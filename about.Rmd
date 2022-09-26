@@ -1,0 +1,18 @@
+---
+title: "About"
+---
+
+### I'm a Mexican Ph.D. student devoted to understand the physiological functions of root traits in maize and the effect domestication on them. I use greenhouse, field and modeling approaches in order to dissect the components of maize adaptation to different environments.
+
+![Sampling maize roots](ivan1.png)
+
+### I studied a master in Plant Biotechnology at [LANGEBIO Cinvestav](https://langebio.cinvestav.mx/) where I dissected the root anatomy and architecture of 5000-year-old root systems of maize specimens coming from the San Marcos cave at Tehuacan Valley. I performed this research in the [Paleogenomics Lab](https://langebio.cinvestav.mx/Dr-Rafael-Montiel) and [Apomixis Lab](https://langebio.cinvestav.mx/Dr-Jean-Philippe-Vielle.html) at LANGEBIO, and in collaboration with the [Roots Lab](https://plantscience.psu.edu/research/labs/roots) at Penn State University. We find [evidences](https://www.pnas.org/doi/10.1073/pnas.2110245119) that the roots traits were domesticated gradually in maize. Further information can be found [here](https://www.psu.edu/news/research/story/getting-root-corn-domestication-knowledge-may-help-plant-breeders/).
+
+![Ancient roots from Tehuacan Valley [Article](https://www.pnas.org/doi/10.1073/pnas.2110245119)](Figure1.png)
+
+### I was so fortunate to share my master thesis work in the ["Sexto Congreso Internacional El patrimonio Cultural y las nuevas tecnologias"](https://www.youtube.com/watch?v=EHGk6d-GebA&list=LL&index=42&t=2987s&ab_channel=INAHTV) where I talked about how root traits were affected gradually during the domestication of maize.
+
+![Ivan Lopez-Valdivia participating at the Sexto Congreso Internacional PCNT [Lecture](https://www.youtube.com/watch?v=EHGk6d-GebA&list=LL&index=42&t=2987s&ab_channel=INAHTV)](INAH_Lopez-Valdivia.png) 
+
+### I also participated in the 11th Symposium of the International Society of Root Research 
+![Ivan Lopez-Valdivia participating at the Sexto Congreso Internacional PCNT [Lecture](https://youtu.be/29ybEM12f1k)](ISRR_LopezValdivia.png)

@@ -1,0 +1,17 @@
+name: "Ivan Lopez-Valdivia"
+navbar:
+  title: "Ivan Lopez-Valdivia"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+    - text: "Research"
+      href: research.html
+    - text: "Publications"
+      href: publications.html
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate
+output_dir: docs
