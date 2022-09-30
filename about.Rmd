@@ -10,9 +10,9 @@ title: "About"
 
 ![Ancient roots from Tehuacan Valley [Article](https://www.pnas.org/doi/10.1073/pnas.2110245119)](Figure1.png)
 
-### I was so fortunate to share my master thesis work in the ["Sexto Congreso Internacional El patrimonio Cultural y las nuevas tecnologias"](https://www.youtube.com/watch?v=EHGk6d-GebA&list=LL&index=42&t=2987s&ab_channel=INAHTV) where I talked about how root traits were affected gradually during the domestication of maize.
+### I was so fortunate to share my master thesis work in the ["Sexto Congreso Internacional El patrimonio Cultural y las nuevas tecnologias"](https://www.youtube.com/embed/EHGk6d-GebA) where I talked about how root traits were affected gradually during the domestication of maize.
 
-![Ivan Lopez-Valdivia participating at the Sexto Congreso Internacional PCNT [Lecture](https://www.youtube.com/watch?v=EHGk6d-GebA&list=LL&index=42&t=2987s&ab_channel=INAHTV)](INAH_Lopez-Valdivia.png) 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EHGk6d-GebA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### I also participated in the [11th Symposium of the International Society of Root Research](https://youtu.be/29ybEM12f1k) 
-![Ivan Lopez-Valdivia participating at the 11th Symposium of the International Society of Root Research [Lecture](https://youtu.be/29ybEM12f1k)](ISRR_LopezValdivia.png)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/29ybEM12f1k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

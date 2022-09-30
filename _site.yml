@@ -10,6 +10,13 @@ navbar:
       href: research.html
     - text: "Publications"
       href: publications.html
+  right:
+    - icon: fa-brands fa-linkedin
+      href: https://www.linkedin.com/in/ivan-lopez-valdivia-575429252/
+    - icon: fa-brands fa-twitter
+      href: https://twitter.com/IlvIvan
+    - icon: fa-brands fa-google
+      href: https://scholar.google.com/citations?hl=es&user=XMdjIEsAAAAJ&view_op=list_works&gmla=AJsN-F6isZkiyjPpbsJBrlo_uGiqM4QcqputVuSh1_UxWGu-cffGUq_q7upHdrAUoy6T32ajtAO8NPw6FlwkvcrSEKIASgpEhg
 output:
   html_document:
     theme: cosmo

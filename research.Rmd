@@ -4,5 +4,8 @@ title: "Research"
 ## Cortical Cell Size and Cortical Cell File Number 
 
 ## Local adaptation of root traits
+### Reciprocal Transplanting _in silico_ of maize plants comming from high and low nitrogen soils. The model [OpenSimRoot](https://rootmodels.gitlab.io/) was used to simulated a high and low nitrogen environments.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4hO6eV4Xgdo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Domestication effect on MCS

@@ -2,7 +2,6 @@
 title: "Ivan Lopez Valdivia"
 ---
 
-
 ![](IMG_0871.png)
 
 ### Ph.D. Candidate at [Roots Lab](https://plantscience.psu.edu/research/labs/roots)
@@ -10,7 +9,6 @@ title: "Ivan Lopez Valdivia"
 ### Pennsylvania State University
 ### Email: iul116@psu.edu
 ### [ORCID](https://orcid.org/0000-0003-1955-4989)
-### [Google Scholar]()
 #
 #
 #
