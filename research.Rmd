@@ -7,7 +7,7 @@ output:
     toc_float: true
     toc_depth: 2
 ---
-# __Chapter 1 - Cortical Cell Size and Cortical Cell File Number__ 
+# __Chapter 1 - Effect of Cortical Cell Size and Cortical Cell File Number in Nitrogen and Phosphorus uptake__ 
 ## Introduction
 
 ## Results
@@ -105,6 +105,23 @@ The overall results of these project show that no pattern of local adaptation wa
 
 ## Conclusion
 Root length in the deeper soil profiles showed a pattern of local adaptation, however values for shoot dry weight, root dry weight and root respiration didn’t show this pattern. It is necessary to consider nutrient leaching across more than 40 days to represent correctly the high and low nitrogen environments. 
+
+## References
+* Burton A, Brown KM, & Lynch JP. (2013) Phenotypic diversity of root anatomical and architectural traits in Zea species. Crop Science. 53(3):1042–1055. 
+* Gao Y & Lynch JP. (2016) Reduced crown root number improves water acquisition under water deficit stress in maize (Zea mays L.). Journal of Experimental Botany. 67(15):4545–4557. 
+* Lynch JP, Nielsen KL, Davis RD, Jablokow AG. (1997) SimRoot: modelling and visualization of root systems. Plant and Soil. 188(1):139-151.
+* Matsuoka Y, Vigouroux Y, Goodman MM, Sanchez GJ, Buckler E & Doebley J. (2002) A single domestication for maize shown by multilocus microsatellite genotyping. Proceedings of the National Academy of Sciences. 99(9):6080–6084. 
+* Postma JA & Lynch JP. (2011) Root Cortical Aerenchyma Enhances the Growth of Maize on Soils with Suboptimal Availability of Nitrogen, Phosphorus, and Potassium. Plant Physiology. 156(3):1190–1201. 
+* Postma JA, Kuppe C, Owen MR, Mellor N, Griffiths M, Bennett M, Lynch J & Watt M. (2017) OpenSimRoot: widening the scope and application of root architectural models. New Phytologist. 215(3):1274–1286. 
+* Saengwilai P, Nord EA, Chimungu JG, Brown KM, & Lynch JP. (2014b) Root Cortical Aerenchyma Enhances Nitrogen Acquisition from Low-Nitrogen Soils in Maize. Plant Physiology. 166(2):726–735. 
+* Saengwilai P, Tian X & Lynch JP. (2014a) Low crown root number enhances nitrogen acquisition from low nitrogen soils in maize (Zea mays L.). Plant Physiology. 166(2):581-9.
+* Shafer E., (2019) OpenSimRoot: The guide. Roots lab. Pennsylvania State University. Unites States. 
+* Simbnek J, Huang K., and Genuchten M. (1995) The SWMS 3D Code for Simulating Water Flow and Solute Transport in Three-Dimensional Variably-Saturated Media. U. S. Salinity laboratory agricultural research service.
+* Sousa L. et al. (2020) SoilGrids 2.0: producing quality-assessed soil information for the globe. Preprint. Soil Discussions. 
+* Sun B, Gao Y & Lynch J. (2018) Large crown root number improves topsoil foraging and phosphorus acquisition. Plant Physiology. 177:90-104. 
+* Vigouroux, Y., J.C. Glaubitz, Y. Matsuoka, M.M. Goodman, S.G. Jesus, and J. Doebley. 2008. Population structure and genetic diversity of new world maize races assessed by DNA microsatellites. Am. J. Bot. 95:1240–1253. doi:10.3732/ ajb.0800097
+* York LM, Galindo-Castañeda T, Schussler JR & Lynch JP. (2015) Evolution of US maize (Zea mays L.) root architectural and anatomical phenes over the past 100 years corresponds to increased tolerance of nitrogen stress. Journal of Experimental Botany. 66(8):2347–2358. 
+
 
 # __Chapter 3 - Domestication effect on MCS__
 ## Introduction
