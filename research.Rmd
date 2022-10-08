@@ -6,6 +6,11 @@ output:
     toc: true
     toc_float: true
     toc_depth: 2
+    params:
+    pwd:
+      label: "Enter the Password, please!"
+      value: ""
+      input: password
 ---
 # __Chapter 1 - Effect of Cortical Cell Size and Cortical Cell File Number in Nitrogen and Phosphorus uptake__ 
 ## Introduction
