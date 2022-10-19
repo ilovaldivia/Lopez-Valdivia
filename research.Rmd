@@ -12,22 +12,7 @@ output:
       value: ""
       input: password
 ---
-# __Chapter 1 - Effect of Cortical Cell Size and Cortical Cell File Number in Nitrogen and Phosphorus uptake__ 
-## Introduction
-
-## Results
-### Figure 1
-
-### Figure 2
-
-### Figure 3
-
-### Figure 4
-
-## Discussion
-## Conclusion
-
-# __Chapter 2 - Local adaptation of root traits__
+# __Chapter 1 - Local adaptation of root traits__
 ## Introduction
 ### _Origin of Maize_
 Maize originated in Mexico from teosinte around 9000 years ago (Matsouka, 2002). During its domestication, maize dispersed throughout North and South America, growing and adapting in a highly variable geographic regions with specific edaphic constraints, giving rise to multiple populations with wide genetic and morphological diversity (Vigouroux, 2008). The root system is the organ in charge to respond and adapt to any stress condition in the soil, however the role of roots traits during maize dispersion and domestication have been neglected. In 2013, Burton et al., studied the root diversity of maize analyzing architectural and anatomical root traits in populations of 195 landraces and 61 teosintes from America. The mainly contribution was that maize tend to have more seminal roots and less crown roots compared with teosinte (Burton, 2013). However, the possibility that this root phenotypic variation show local adaptation to their original environment has not been explored. 
@@ -127,6 +112,21 @@ Root length in the deeper soil profiles showed a pattern of local adaptation, ho
 * Vigouroux, Y., J.C. Glaubitz, Y. Matsuoka, M.M. Goodman, S.G. Jesus, and J. Doebley. 2008. Population structure and genetic diversity of new world maize races assessed by DNA microsatellites. Am. J. Bot. 95:1240–1253. doi:10.3732/ ajb.0800097
 * York LM, Galindo-Castañeda T, Schussler JR & Lynch JP. (2015) Evolution of US maize (Zea mays L.) root architectural and anatomical phenes over the past 100 years corresponds to increased tolerance of nitrogen stress. Journal of Experimental Botany. 66(8):2347–2358. 
 
+
+# __Chapter 2 - Effect of Cortical Cell Size and Cortical Cell File Number in Nitrogen and Phosphorus uptake__ 
+## Introduction
+
+## Results
+### Figure 1
+
+### Figure 2
+
+### Figure 3
+
+### Figure 4
+
+## Discussion
+## Conclusion
 
 # __Chapter 3 - Domestication effect on MCS__
 ## Introduction

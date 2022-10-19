@@ -1,0 +1,27 @@
+---
+title: "Cooming soon"
+output:
+  html_document:
+    #number_sections:
+    toc: true
+    toc_float: true
+    toc_depth: 2
+    params:
+    pwd:
+      label: "Enter the Password, please!"
+      value: ""
+      input: password
+---
+# __Local adaptation of root traits__
+
+### _Model description_
+[OpenSimRoot](https://rootmodels.gitlab.io/) (OSR) is a structural-functional model that simulates root growth and interaction with soil in three dimensions. To simulate root geometry the model assumes the hypocotyl as the starting point and roots develop from it considering axial and radial branching (Lynch 1997). Root growth in three dimensions is represented with static and dynamic coordinates that store the information of the previous location (Postma, 2017). The root architecture and hierarchical development will depend on the specie. Actually, OSR is able to simulate root systems of barley, bean, maize, squash and Arabidopsis (Shafer, 2019). Taking maize as example, the first root that develop is the primary root, then seminal roots, nodal roots and brace roots. Each root type develops lateral roots also considering the radial and axial branching (Lynch 1997). Parameters like number of roots, growth rates, branching density, respiration, photosynthesis, leaf expansion rate are measured empirically and are used in the model as input files. 
+
+OSR includes a carbon module, that calculates the available carbon for growth based on a subtraction of the carbon sources minus the carbon sinks. The carbon sinks are the root exudates and the maintenance cost due respiration, while the carbon sources are the carbon available in the seed and the carbon produced by photosynthesis. Some carbon partitioning rules are that exudates and respiration are obligated cost, once this demand is covered the remaining carbon could be used for growth. The carbon for growth is partitioned in shoot and root, giving priority to the shoots.  OSR also includes a nitrogen module that simulates the leaching of water and nutrients in the soil. Movement of water and nitrate is computed by integrating the SWMS_3D model, which numerically solves Richard equation for satured-unsaturated water flow and the convection-dispersion equation for solute transport (Simunek, 1995). 
+
+To simulate stress the model calculates a nutrient stress factor (NEF) based on the optimal nutrient concentration of the tissues. When the nutrient availability in the simulated soil is less than the optimum the NEF will increase. The NEF will directly impact leaf expansion rate and light use efficiency. When leaf expansion rate is reduced, the sink of the shoot is reduced, and carbon is allocated in the roots, functioning as a growth regulator. In other hand, when light use efficiency is affected, there is less carbon and a reduction of growth in general. The impact of NEF in leaf expansion rate and light use efficiency is nutrient specific. For example, when phosphorus concentration is below the optimum it will impact leaf expansion rate. When potassium is below the optimum the NEF will affect light use efficiency, and when nitrogen is below the optimum it will affect both (Postma, 2011).
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4hO6eV4Xgdo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Video 1. Simulation of phenotypes A and B at day 40 under both environments. Red color in the soil represents the nitrogen concentration. Yellow color in the root segments represent the nitrogen uptake. 
+
