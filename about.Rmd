@@ -13,6 +13,7 @@ title: "About"
 </script>
 </head> 
 
+![Maize fields at The Russell E. Larson Agricultural Research Center at Rock Springs, Penn State University](rocksprings2021.png)
 
 ### I'm a Mexican Ph.D. student devoted to understanding the physiological and morphological root adaptations along the domestication and dispersion of maize and wheat. I use greenhouse, field, and modeling approaches to study the role of root anatomy, architecture, and physiology in the adaptation to abiotic stress.
 ![Sampling Wheat roots at CIMMYT Obregon Station 2023](field_CIMMYT.png)
