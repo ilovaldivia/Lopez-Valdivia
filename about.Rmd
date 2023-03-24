@@ -1,6 +1,18 @@
 ---
 title: "About"
 ---
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ERV5WXQZ44"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ERV5WXQZ44');
+</script>
+</head> 
+
 
 ### I'm a Mexican Ph.D. student devoted to understanding the physiological and morphological root adaptations along the domestication and dispersion of maize and wheat. I use greenhouse, field, and modeling approaches to study the role of root anatomy, architecture, and physiology in the adaptation to abiotic stress.
 ![Sampling Wheat roots at CIMMYT Obregon Station 2023](field_CIMMYT.png)

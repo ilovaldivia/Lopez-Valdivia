@@ -2,6 +2,18 @@
 title: "Ivan Lopez-Valdivia"
 ---
 
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ERV5WXQZ44"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ERV5WXQZ44');
+</script>
+</head> 
+
 ![](IMG_0871.png)
 
 ### Ph.D. Candidate at [Roots Lab](https://plantscience.psu.edu/research/labs/roots)
