@@ -11,7 +11,7 @@
 
 
 
-<title>Thesis proposal</title>
+<title>Research</title>
 
 <script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -35,15 +35,6 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<script src="site_libs/htmlwidgets-1.5.4/htmlwidgets.js"></script>
-<link href="site_libs/handsontable-6.2.2/handsontable.full.min.css" rel="stylesheet" />
-<script src="site_libs/handsontable-6.2.2/handsontable.full.min.js"></script>
-<script src="site_libs/handsontable-6.2.2/all.min.js"></script>
-<script src="site_libs/numbro.languages-2.0.6/languages.min.js"></script>
-<script src="site_libs/chroma-1.3.3/chroma.min.js"></script>
-<script src="site_libs/sparkline-2.1.2/jquery.sparkline.min.js"></script>
-<link href="site_libs/rhandsontable-0.3.7/rhandsontable.css" rel="stylesheet" />
-<script src="site_libs/rhandsontable-binding-0.3.8/rhandsontable.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 <!-- Google tag (gtag.js) -->
@@ -348,7 +339,7 @@ div.tocify {
   <a href="about.html">About</a>
 </li>
 <li>
-  <a href="researchX.html">ResearchX</a>
+  <a href="research.html">Research</a>
 </li>
 <li>
   <a href="publications.html">Publications</a>
@@ -385,7 +376,7 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">Thesis proposal</h1>
+<h1 class="title toc-ignore">Research</h1>
 
 </div>
 
@@ -401,391 +392,58 @@ div.tocify {
   gtag('config', 'G-ERV5WXQZ44');
 </script>
 </head>
-<div id="chapter-1---local-adaptation-of-root-traits"
+<div id="root-cortical-anatomy-and-nitrogen-capture"
 class="section level1">
-<h1><strong>Chapter 1 - Local adaptation of root traits</strong></h1>
-<div id="introduction" class="section level2">
-<h2>Introduction</h2>
-<div id="origin-of-maize" class="section level3">
-<h3><em>Origin of Maize</em></h3>
-<p>Maize originated in Mexico from teosinte around 9000 years ago
-(Matsouka, 2002). During its domestication, maize dispersed throughout
-North and South America, growing and adapting in a highly variable
-geographic regions with specific edaphic constraints, giving rise to
-multiple populations with wide genetic and morphological diversity
-(Vigouroux, 2008). The root system is the organ in charge to respond and
-adapt to any stress condition in the soil, however the role of roots
-traits during maize dispersion and domestication have been neglected. In
-2013, Burton et al., studied the root diversity of maize analyzing
-architectural and anatomical root traits in populations of 195 landraces
-and 61 teosintes from America. The mainly contribution was that maize
-tend to have more seminal roots and less crown roots compared with
-teosinte (Burton, 2013). However, the possibility that this root
-phenotypic variation show local adaptation to their original environment
-has not been explored.</p>
-</div>
-<div id="maize-roots-and-domestication" class="section level3">
-<h3><em>Maize roots and domestication</em></h3>
-<p>Root architecture is a determinant factor to adapt to edaphic stress
-because it determines the spatial distribution of a root system in the
-soil. Since plants need to uptake mobile and immobile nutrients the
-spatial location of the roots will determine it success to capture
-nutrients. For example, it has been tested that maize varieties with
-higher number of crown roots tend to develop shallow angles and
-distribute its root system in the shallow parts of the soils compared
-with varieties with lower number of crown roots. Under phosphorus stress
-varieties with higher number of crown roots perform better due to the
-phosphorus is an immobile nutrient that accumulates in the shallow
-profiles of the soil (Sun, 2018). In contrast, maize lines with low
-number of crown roots develop steeper angles, allowing the roots explore
-the deeper profiles of the soils. Under low nitrogen and water stress
-maize varieties with less crown roots perform better because they are
-able to reach the nitrogen and water that leach to the deeper soil
-profiles (Gao 2016; Saengwilai 2014a).</p>
-</div>
-<div id="cheap-roots-for-soil-adaptation" class="section level3">
-<h3><em>Cheap roots for soil adaptation</em></h3>
-<p>The ability to reduce the metabolic cost of soil exploration is also
-an important factor to adapt in poor soil conditions and it is directly
-related with some phenotypic traits. For example, reducing the number of
-crown roots will also reduce the respiration cost of the root system,
-therefore varieties of maize with less crown root number will have
-steeper angles but also less carbon requirements for respiration. The
-carbon saved from respiration then could be used for growth instead
-(Saengwilai 2014a). Other traits that reduce the metabolic cost is the
-programed cell death in the cortex of the roots, called aerenchyma. This
-trait makes air spaces in the cortex that is useful to adapt to very
-humid conditions, but also to reduce the metabolic cost since there are
-less cells respiring. Maize varieties with and without aerenchyma were
-evaluated under low nitrogen conditions and the ones with aerenchyma
-were superior to adapt in these conditions (Saengwilai 2014b).</p>
-</div>
-<div id="opensimroot-as-a-tool-to-study-domestication-of-roots."
-class="section level3">
-<h3><em>OpenSimRoot as a tool to study domestication of roots.</em></h3>
-<p>These relations between root traits and nutrient capture efficiency
-have been used to create OpenSimRoot, which is a structure-function
-model that simulates root growth considering the root architecture, cost
-of soil exploration and maintenance. OpenSimRoot has been useful to
-predict the impact of root traits like number of seminal roots, number
-of crown roots and aerenchyma volume in plant growth (York et al., 2015,
-Saengwilai, 2014a; Postma. et al., 2011; Saengwilai, 2014b). However,
-the model has been not used before to test if root phenotypes have local
-adaptation. In this work, we used OpenSimRoot to design artificial
-environments for high and low nitrogen fields and test if the maize root
-phenotypes of landraces that evolved in those environments showed local
-adaptation.</p>
-</div>
-</div>
-<div id="hypothesis" class="section level2">
-<h2>Hypothesis</h2>
-<p>Maize landraces coming from low nitrogen fields have root phenotypes
-that are more efficient to uptake nitrogen in silico compared with
-landraces coming from high nitrogen fields.</p>
-</div>
-<div id="methods" class="section level2">
-<h2>Methods</h2>
-<div id="model-description" class="section level3">
-<h3><em>Model description</em></h3>
-<p><a href="https://rootmodels.gitlab.io/">OpenSimRoot</a> (OSR) is a
-structural-functional model that simulates root growth and interaction
-with soil in three dimensions. To simulate root geometry the model
-assumes the hypocotyl as the starting point and roots develop from it
-considering axial and radial branching (Lynch 1997). Root growth in
-three dimensions is represented with static and dynamic coordinates that
-store the information of the previous location (Postma, 2017). The root
-architecture and hierarchical development will depend on the specie.
-Actually, OSR is able to simulate root systems of barley, bean, maize,
-squash and Arabidopsis (Shafer, 2019). Taking maize as example, the
-first root that develop is the primary root, then seminal roots, nodal
-roots and brace roots. Each root type develops lateral roots also
-considering the radial and axial branching (Lynch 1997). Parameters like
-number of roots, growth rates, branching density, respiration,
-photosynthesis, leaf expansion rate are measured empirically and are
-used in the model as input files.</p>
-<p>OSR includes a carbon module, that calculates the available carbon
-for growth based on a subtraction of the carbon sources minus the carbon
-sinks. The carbon sinks are the root exudates and the maintenance cost
-due respiration, while the carbon sources are the carbon available in
-the seed and the carbon produced by photosynthesis. Some carbon
-partitioning rules are that exudates and respiration are obligated cost,
-once this demand is covered the remaining carbon could be used for
-growth. The carbon for growth is partitioned in shoot and root, giving
-priority to the shoots. OSR also includes a nitrogen module that
-simulates the leaching of water and nutrients in the soil. Movement of
-water and nitrate is computed by integrating the SWMS_3D model, which
-numerically solves Richard equation for satured-unsaturated water flow
-and the convection-dispersion equation for solute transport (Simunek,
-1995).</p>
-<p>To simulate stress the model calculates a nutrient stress factor
-(NEF) based on the optimal nutrient concentration of the tissues. When
-the nutrient availability in the simulated soil is less than the optimum
-the NEF will increase. The NEF will directly impact leaf expansion rate
-and light use efficiency. When leaf expansion rate is reduced, the sink
-of the shoot is reduced, and carbon is allocated in the roots,
-functioning as a growth regulator. In other hand, when light use
-efficiency is affected, there is less carbon and a reduction of growth
-in general. The impact of NEF in leaf expansion rate and light use
-efficiency is nutrient specific. For example, when phosphorus
-concentration is below the optimum it will impact leaf expansion rate.
-When potassium is below the optimum the NEF will affect light use
-efficiency, and when nitrogen is below the optimum it will affect both
-(Postma, 2011).</p>
-</div>
-<div id="outputs" class="section level3">
-<h3><em>Outputs</em></h3>
-<p>The outputs of the system are “table_output.tab” files, which
-contains a table with information for shoot dry weight, photosynthesis,
-respiration, nutrient uptake, stress factor etc. for every time steps.
-In addition, the model produces VTP/VTU files that contains the
-locations of every root segments and root properties, as well as soil
-properties. These files can be visualized using Paraview, in which
-variables like nutrient concentration in soil and nutrient uptake by
-roots can be observed trough time.</p>
-</div>
-<div id="genotypes" class="section level3">
-<h3><em>Genotypes</em></h3>
-<p>We used a root phenotypic diversity panel of 195 landraces and 61
-teosintes from America (Burton 2013) to select phenotypes coming from
-high and low nitrogen fields. We obtained georeferenced information for
-every genotype using GRIN, USDA data base. Only 99 landraces from Burton
-panel were present in GRIN with georeferenced information included. We
-obtained information for total nitrogen in the soils using soilGrids
-(Sousa 2020) for each line and we selected the landraces coming from low
-nitrogen fields (.88 g/kg) and high nitrogen fields (5.11 g/kg). Low
-nitrogen fields belonged to arid category in FAO classification while
-high nitrogen field belonged to humid or sub-humid regions. Furthermore,
-the predominant soil of high nitrogen fields was 40% of sand, 30% of
-silt and 30% of clay, while in the low nitrogen fields it was 55% sand,
-30% silt and 15% clay, corresponding to clay-loam and sandy-loam,
-respectively. We integrated data for nitrogen, climatic region and soil
-texture to design artificial environments for high and low nitrogen
-soils, named Environment A and B, respectively (Table 1). Since the root
-phenotypes from high and low nitrogen fields also showed differences, we
-designed phenotypes A and B, corresponding to high and low nitrogen
-fields, respectively (Table 2).</p>
-</div>
-<div id="runs" class="section level3">
-<h3><em>Runs</em></h3>
-<p>We ran six replicates of all the possible combinations of
-environments and phenotypes: being Environment A-Phenotype A,
-Environment A-Phenotype B, Environment B-Phenotype A and Environment
-B-Phenotype B. We used a workstation in Pennsylvania State University
-with 60 GB RAM memory. Simulations took 96 hours to compute. Output data
-was analyzed with R and Paraview.</p>
-<p>Table 1. Environment from high (A) and low (B) nitrogen soils.</p>
-<div id="htmlwidget-c522529b70570d757369" style="width:672px;height:480px;" class="rhandsontable html-widget"></div>
-<script type="application/json" data-for="htmlwidget-c522529b70570d757369">{"x":{"data":[{" ":"Soil Texture","Environment A":"Clay loam","Environment B":"Sandy loam"},{" ":"Ksat","Environment A":"59.96 cm/day","Environment B":"85.31 cm/day"},{" ":"Nitrogen","Environment A":"83.21 uMol/ml","Environment B":"4.005uMol/ml"},{" ":"Precipitation","Environment A":"171.3 mm/40 days","Environment B":"57.1 mm/40days"}],"rClass":["tbl_df","tbl","data.frame"],"rColClasses":{" ":"character","Environment A":"character","Environment B":"character"},"rColnames":[" ","Environment A","Environment B"],"rColHeaders":[" ","Environment A","Environment B"],"rRowHeaders":null,"rDataDim":[4,3],"selectCallback":false,"colHeaders":[" ","Environment A","Environment B"],"rowHeaders":["1","2","3","4"],"columns":[{"type":"text","renderer":"customRenderer","default":null},{"type":"text","renderer":"customRenderer","default":null},{"type":"text","renderer":"customRenderer","default":null}],"width":null,"height":null,"debug":0,"search":false,"stretchH":"none","comments":false,"contextMenu":{"items":{"row_above":[],"row_below":[],"remove_row":[],"hsep3":{"name":"---------"},"undo":[],"redo":[],"hsep4":{"name":"---------"},"alignment":[]}}},"evals":["columns.0.renderer","columns.1.renderer","columns.2.renderer"],"jsHooks":[]}</script>
-<p>Table 2. Root phenotypes from high (phenotype A) and low (phenotype
-B) nitrogen soils.</p>
-<div id="htmlwidget-b6168d6ba9526ae1262e" style="width:672px;height:480px;" class="rhandsontable html-widget"></div>
-<script type="application/json" data-for="htmlwidget-b6168d6ba9526ae1262e">{"x":{"data":[{"Phenotype":"A","N1":"5","N2":"5","N3":"5","N4":"8","SRN":"4","TRN":"27","A":"58"},{"Phenotype":"B","N1":"4","N2":"4","N3":"5","N4":"7","SRN":"3","TRN":"23","A":"54"}],"rClass":["tbl_df","tbl","data.frame"],"rColClasses":{"Phenotype":"character","N1":"character","N2":"character","N3":"character","N4":"character","SRN":"character","TRN":"character","A":"character"},"rColnames":["Phenotype","N1","N2","N3","N4","SRN","TRN","A"],"rColHeaders":["Phenotype","N1","N2","N3","N4","SRN","TRN","A"],"rRowHeaders":null,"rDataDim":[2,8],"selectCallback":false,"colHeaders":["Phenotype","N1","N2","N3","N4","SRN","TRN","A"],"rowHeaders":["1","2"],"columns":[{"type":"text","renderer":"customRenderer","default":null},{"type":"text","renderer":"customRenderer","default":null},{"type":"text","renderer":"customRenderer","default":null},{"type":"text","renderer":"customRenderer","default":null},{"type":"text","renderer":"customRenderer","default":null},{"type":"text","renderer":"customRenderer","default":null},{"type":"text","renderer":"customRenderer","default":null},{"type":"text","renderer":"customRenderer","default":null}],"width":null,"height":null,"debug":0,"search":false,"stretchH":"none","comments":false,"contextMenu":{"items":{"row_above":[],"row_below":[],"remove_row":[],"hsep3":{"name":"---------"},"undo":[],"redo":[],"hsep4":{"name":"---------"},"alignment":[]}}},"evals":["columns.0.renderer","columns.1.renderer","columns.2.renderer","columns.3.renderer","columns.4.renderer","columns.5.renderer","columns.6.renderer","columns.7.renderer"],"jsHooks":[]}</script>
-<p>N#: Number of root per node SRN: Seminal root number TRN: Total root
-number A: Angle</p>
-</div>
-</div>
-<div id="results-and-discussion" class="section level2">
-<h2>Results and Discussion</h2>
-<p>During its spread through America, maize landraces have been evolving
-and adapting to a very diverse soil conditions, including lack of
-nutrients and water. To test if the root phenotypes of landraces from
-high and low nitrogen fields showed local adaptation to their original
-environments, we design artificial phenotypes and environments of these
-conditions using OpenSimRoot and test their performance in all
-combinations. High nitrogen soils (environment A) were represented with
-an artificial soil with 83.21 Mol/ml nitrate concentration, clay-loam
-soil texture and 171.3 mm of precipitation, while low nitrogen soils
-(environment B) were represented with an artificial soil with 4.005
-Mol/ml nitrogen concentration, sandy-loam soil and 57.1 mm of
-precipitation (Table 1, Video 1). On the other hand, root phenotypes
-were designed considering the angle, and number of seminal and nodal
-roots of genotypes from high and low nitrogen fields. Phenotypes for
-high nitrogen fields (phenotype A) were characterized for having 1 more
-nodal root per node and shallower angle compared with phenotypes from
-low nitrogen fields (phenotype B; Table 2, Video 1).</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4hO6eV4Xgdo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+<h1><strong>Root cortical anatomy and nitrogen capture</strong></h1>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Kvpb8mneHgs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
 </iframe>
-<p>Video 1. Simulation of phenotypes A and B at day 40 under both
-environments. Red color in the soil represents the nitrogen
-concentration. Yellow color in the root segments represent the nitrogen
-uptake.</p>
-<p>In order to compare the fitness of phenotype A and B under both
-environments, we analyzed the values for shoot dry weight, root dry
-weight and root respiration at day 40. We observed that under
-environment A, the phenotype B was slightly superior on shoot dry weight
-production compared with phenotype A (Figure 1A). Interestingly,
-phenotype B produced less root dry weight (Figure 1B) and less
-respiration (Figure 1C) than phenotype A. This could be explained
-because phenotype B produced less roots and there is less maintenance
-cost of the root system. Since maintenance cost represent one of the
-stronger sinks of carbon, phenotype B is able to save the carbon wasted
-in maintenance and invest it in growth, therefore producing greater
-shoot dry weight. In environment B the variation of values for shoot dry
-weight, root dry weight and root respiration are more variable compared
-with environment A (Figure !), that could be associated with the
-stochasticity of the model, which tend to be more significant when the
-plant is under stress.</p>
-<p><img src="Figure1_chapter2.png"
-alt="Figure 1: Shoot dry weight, root dry weight and root respiration for phenotypes A and B under both environments." />
-To further investigate the patterns of root growth of phenotypes A and B
-under both environments we looked at the root length in deeper profile
-of the soil. We observed that under environment A, the phenotype A
-reached deeper soil profile compared with phenotype B. In contrast,
-under environment B the phenotype B produced deeper roots compared with
-phenotype A (Figure 2). This is interesting because root depth has been
-pointed as an important trait to adapt to low nitrogen (Saengwilai,
-2014a) and water conditions (Gao, 2016). If we assume that deeper roots
-is a trait associated with fitness we might have clear evidence of local
-adaptation in root phenotypes of landraces from contrasting nitrogen
-level fields. We also shall consider that the soil texture of low
-nitrogen fields was sandy-loam, which have higher hydraulic conductivity
-compared with the clay-loam (Table 1). It is possible that we are not
-simulating correctly the leaching of the nitrogen in the soil. For
-example, environment B have higher hydraulic conductivity, however the
-reduced precipitation slows the leaching. One of the weakness of this
-model is that it only simulates growth for 40 days, but if we consider
-leaching in several seasons maybe the nitrogen would remain stocked in
-the deeper soils and deeper root would be more important trait for
-nutrient acquisition and growth.</p>
+<p>Interaction of root anatomical phenotypes, root growth, and soil
+nitrogen availability. Visualized output of the simulated root
+architecture of reduced CCFN (right panel, green), increased CCFN (right
+panel red), small CCS (left panel, red) and small CCS (left panel,
+green) under moderate N stress. The continuous gradient from red to blue
+in the simulated soil represents nitrogen depletion by root uptake and
+leaching. Simulations were performed utilizing <a
+href="https://rootmodels.gitlab.io/">OpenSimRoot</a> (OSR), a
+structural-functional model that simulates root growth and interaction
+with soil in three dimensions.</p>
+</div>
+<div id="domestication-of-root-traits-in-the-earliest-maize"
+class="section level1">
+<h1><strong>Domestication of root traits in the earliest
+maize</strong></h1>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XZTEIv52eaw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+</iframe>
+<p>We used laser ablation tomography to characterize the root anatomy of
+5,300-y-old maize specimens recovered from San Marcos (Tehuacán,
+Mexico), revealing exquisite preservation of their cellular
+organization. We observed the presence of Multiseriate cortical
+sclerenchyma <a
+href="https://www.pnas.org/doi/10.1073/pnas.2012087118">(MCS))</a>,
+typical of extant maize adapted to hard soils.</p>
+</div>
+<div id="local-adaptation-of-root-traits" class="section level1">
+<h1><strong>Local adaptation of root traits</strong></h1>
+<p>We designed root phenotypes and environments corresponding to maize
+landraces coming from contrasting edaphic conditions. Then we
+reciprocally transplanted in silico to evaluate their performance.</p>
 <div class="figure">
-<img src="Figure2_chapter2.png" alt="" />
-<p class="caption">Figure 2: Root length in the deepest soil profile of
-phenotypes A and B under both environments.</p>
+<img src="reciprocal.png" alt="" />
+<p class="caption">Simulation of phenotypes A and B at day 40 under both
+environments. Red in the soil represents the nitrogen concentration. The
+transition to blue in the root segments represents nitrogen capture.</p>
 </div>
-<p>The overall results of these project show that no pattern of local
-adaptation was obtained in any of the variables analyzed above, with
-exception of root length in deep profiles, however we cannot discard
-local adaptation in these genotypes, since there are intrinsic variables
-like phenotypic plasticity and soils dynamics that we are not
-considering in the simulations.</p>
+<div id="reciprocal-transplanting-in-silico---envinronment-a"
+class="section level3">
+<h3>Reciprocal Transplanting In silico - Envinronment A</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/woIibJjGRpo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+</iframe>
 </div>
-<div id="conclusion" class="section level2">
-<h2>Conclusion</h2>
-<p>Root length in the deeper soil profiles showed a pattern of local
-adaptation, however values for shoot dry weight, root dry weight and
-root respiration didn’t show this pattern. It is necessary to consider
-nutrient leaching across more than 40 days to represent correctly the
-high and low nitrogen environments.</p>
-</div>
-<div id="references" class="section level2">
-<h2>References</h2>
-<ul>
-<li>Burton A, Brown KM, &amp; Lynch JP. (2013) Phenotypic diversity of
-root anatomical and architectural traits in Zea species. Crop Science.
-53(3):1042–1055.</li>
-<li>Gao Y &amp; Lynch JP. (2016) Reduced crown root number improves
-water acquisition under water deficit stress in maize (Zea mays L.).
-Journal of Experimental Botany. 67(15):4545–4557.</li>
-<li>Lynch JP, Nielsen KL, Davis RD, Jablokow AG. (1997) SimRoot:
-modelling and visualization of root systems. Plant and Soil.
-188(1):139-151.</li>
-<li>Matsuoka Y, Vigouroux Y, Goodman MM, Sanchez GJ, Buckler E &amp;
-Doebley J. (2002) A single domestication for maize shown by multilocus
-microsatellite genotyping. Proceedings of the National Academy of
-Sciences. 99(9):6080–6084.</li>
-<li>Postma JA &amp; Lynch JP. (2011) Root Cortical Aerenchyma Enhances
-the Growth of Maize on Soils with Suboptimal Availability of Nitrogen,
-Phosphorus, and Potassium. Plant Physiology. 156(3):1190–1201.</li>
-<li>Postma JA, Kuppe C, Owen MR, Mellor N, Griffiths M, Bennett M, Lynch
-J &amp; Watt M. (2017) OpenSimRoot: widening the scope and application
-of root architectural models. New Phytologist. 215(3):1274–1286.</li>
-<li>Saengwilai P, Nord EA, Chimungu JG, Brown KM, &amp; Lynch JP.
-(2014b) Root Cortical Aerenchyma Enhances Nitrogen Acquisition from
-Low-Nitrogen Soils in Maize. Plant Physiology. 166(2):726–735.</li>
-<li>Saengwilai P, Tian X &amp; Lynch JP. (2014a) Low crown root number
-enhances nitrogen acquisition from low nitrogen soils in maize (Zea mays
-L.). Plant Physiology. 166(2):581-9.</li>
-<li>Shafer E., (2019) OpenSimRoot: The guide. Roots lab. Pennsylvania
-State University. Unites States.</li>
-<li>Simbnek J, Huang K., and Genuchten M. (1995) The SWMS 3D Code for
-Simulating Water Flow and Solute Transport in Three-Dimensional
-Variably-Saturated Media. U. S. Salinity laboratory agricultural
-research service.</li>
-<li>Sousa L. et al. (2020) SoilGrids 2.0: producing quality-assessed
-soil information for the globe. Preprint. Soil Discussions.</li>
-<li>Sun B, Gao Y &amp; Lynch J. (2018) Large crown root number improves
-topsoil foraging and phosphorus acquisition. Plant Physiology.
-177:90-104.</li>
-<li>Vigouroux, Y., J.C. Glaubitz, Y. Matsuoka, M.M. Goodman, S.G. Jesus,
-and J. Doebley. 2008. Population structure and genetic diversity of new
-world maize races assessed by DNA microsatellites. Am. J. Bot.
-95:1240–1253. <a href="doi:10.3732/" class="uri">doi:10.3732/</a>
-ajb.0800097</li>
-<li>York LM, Galindo-Castañeda T, Schussler JR &amp; Lynch JP. (2015)
-Evolution of US maize (Zea mays L.) root architectural and anatomical
-phenes over the past 100 years corresponds to increased tolerance of
-nitrogen stress. Journal of Experimental Botany. 66(8):2347–2358.</li>
-</ul>
-</div>
-</div>
-<div
-id="chapter-2---effect-of-cortical-cell-size-and-cortical-cell-file-number-in-nitrogen-and-phosphorus-uptake"
-class="section level1">
-<h1><strong>Chapter 2 - Effect of Cortical Cell Size and Cortical Cell
-File Number in Nitrogen and Phosphorus uptake</strong></h1>
-<div id="introduction-1" class="section level2">
-<h2>Introduction</h2>
-</div>
-<div id="results" class="section level2">
-<h2>Results</h2>
-<div id="figure-1" class="section level3">
-<h3>Figure 1</h3>
-</div>
-<div id="figure-2" class="section level3">
-<h3>Figure 2</h3>
-</div>
-<div id="figure-3" class="section level3">
-<h3>Figure 3</h3>
-</div>
-<div id="figure-4" class="section level3">
-<h3>Figure 4</h3>
-</div>
-</div>
-<div id="discussion" class="section level2">
-<h2>Discussion</h2>
-</div>
-<div id="conclusion-1" class="section level2">
-<h2>Conclusion</h2>
-</div>
-</div>
-<div id="chapter-3---domestication-effect-on-mcs"
-class="section level1">
-<h1><strong>Chapter 3 - Domestication effect on MCS</strong></h1>
-<div id="introduction-2" class="section level2">
-<h2>Introduction</h2>
-<div id="topic-1" class="section level3">
-<h3>Topic 1</h3>
-</div>
-<div id="topic-2" class="section level3">
-<h3>Topic 2</h3>
-</div>
-<div id="topic-3" class="section level3">
-<h3>Topic 3</h3>
-</div>
-</div>
-<div id="objective" class="section level2">
-<h2>Objective</h2>
-</div>
-<div id="results-1" class="section level2">
-<h2>Results</h2>
-<div id="figure-1-1" class="section level3">
-<h3>Figure 1</h3>
-</div>
-<div id="figure-2-1" class="section level3">
-<h3>Figure 2</h3>
-</div>
-<div id="figure-3-1" class="section level3">
-<h3>Figure 3</h3>
-</div>
-<div id="figure-4-1" class="section level3">
-<h3>Figure 4</h3>
-</div>
-</div>
-<div id="discussion-1" class="section level2">
-<h2>Discussion</h2>
-</div>
-<div id="conclusion-2" class="section level2">
-<h2>Conclusion</h2>
+<div id="reciprocal-transplanting-in-silico---envinronment-b"
+class="section level3">
+<h3>Reciprocal Transplanting In silico - Envinronment B</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/toQBu0TGq3E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+</iframe>
 </div>
 </div>
 

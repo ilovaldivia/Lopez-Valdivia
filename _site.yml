@@ -6,8 +6,8 @@ navbar:
       href: index.html
     - text: "About"
       href: about.html
-    - text: "ResearchX"
-      href: researchX.html
+    - text: "Research"
+      href: research.html
     - text: "Publications"
       href: publications.html
     - text: "Lectures"
