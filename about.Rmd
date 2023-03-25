@@ -18,11 +18,11 @@ title: "About"
 ### I'm a Mexican Ph.D. student devoted to understanding the physiological and morphological root adaptations along the domestication and dispersion of maize and wheat. I use greenhouse, field, and modeling approaches to study the role of root anatomy, architecture, and physiology in the adaptation to abiotic stress.
 ![Sampling Wheat roots at CIMMYT Obregon Station 2023](field_CIMMYT.png)
 
-### I'm doing my doctoral thesis under the mentorship of Jonathan Lynch at Pennsylvania State University where we implement high-throughput phenotyping of root systems to capture the variation of root phenes (most elemental components of the phenotype), their interactions, and functions under abiotic stress. 
+### I'm doing my doctoral thesis under the mentorship of [Jonathan Lynch](https://plantscience.psu.edu/directory/jpl4) at Pennsylvania State University where we implement high-throughput phenotyping of root systems to capture the variation of root phenes (most elemental components of the phenotype), their interactions, and functions under abiotic stress. 
 
 ![Sampling maize roots at Penn State Greenhouse 2021](ivan1.png)
 
-### Last year I shared advances of my project related with the local adaptation of root traits to arid and humid soils at the ASA, CSSA & SSSA Annual Meeting in Baltimore. 
+### Last year I shared advances of my project related with the local adaptation of root traits to arid and humid soils at the [ASA, CSSA & SSSA Annual] Meeting(https://www.acsmeetings.org/) in Baltimore. 
 
 
 ![Poster sesion at ASA, CSSA & SSSA Annual Meeting 2022](ASA_meeting.png)

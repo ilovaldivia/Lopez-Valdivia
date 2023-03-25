@@ -13,6 +13,8 @@ title: "Publications"
 </script>
 </head> 
 
+![OpenSimRoot](publications_pic.png)
+
 ### 2023
 
 * Miguel Vallebueno-Estrada; Guillermo G. Hernández-Robles; Eduardo González-Orozco; **Iván López-Valdivia**; Teresa Rosales Tham; Víctor Vásquez Sánchez; Kelly Swarts; Tom D. Dillehay; Jean-Philippe Vielle-Calzada; Rafael Montiel. 2023. Domestication and lowland adaptation of coastal preceramic maize from Paredones, Peru. eLife, in press
