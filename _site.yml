@@ -19,9 +19,10 @@ navbar:
       href: https://twitter.com/IlvIvan
     - icon: fa-brands fa-google
       href: https://scholar.google.com/citations?hl=es&user=XMdjIEsAAAAJ&view_op=list_works&gmla=AJsN-F6isZkiyjPpbsJBrlo_uGiqM4QcqputVuSh1_UxWGu-cffGUq_q7upHdrAUoy6T32ajtAO8NPw6FlwkvcrSEKIASgpEhg
-output:
+output: 
   html_document:
-    theme: cosmo
+  #cleanrmd::html_document_clean:
+    theme: journal
     highlight: textmate
     includes:
       in_header: GA_script.html

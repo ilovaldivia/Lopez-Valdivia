@@ -6,11 +6,6 @@ output:
     toc: true
     toc_float: true
     toc_depth: 2
-    params:
-    pwd:
-      label: "Enter the Password, please!"
-      value: ""
-      input: password
 ---
 <head>
 <!-- Google tag (gtag.js) -->
