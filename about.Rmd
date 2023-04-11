@@ -20,7 +20,9 @@ title: "About"
 
 ### I'm doing my doctoral thesis under the mentorship of [Jonathan Lynch](https://plantscience.psu.edu/directory/jpl4) at Pennsylvania State University where we implement high-throughput phenotyping of root systems to capture the variation of root phenes (most elemental components of the phenotype), their interactions, and functions under abiotic stress. 
 
+
 ![Sampling maize roots at Penn State Greenhouse 2021](ivan1.png)
+
 
 ### Last year I shared advances of my project related with the local adaptation of root traits to arid and humid soils at the [ASA, CSSA & SSSA Annual Meeting](https://www.acsmeetings.org/) in Baltimore. 
 
