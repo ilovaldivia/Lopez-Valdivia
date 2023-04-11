@@ -22,7 +22,10 @@ navbar:
 output: 
   html_document:
   #cleanrmd::html_document_clean:
-    theme: journal
+  #prettydoc::html_pretty:
+    #theme: cayman
+    #highlight: github
+    theme: cosmo
     highlight: textmate
     includes:
       in_header: GA_script.html
