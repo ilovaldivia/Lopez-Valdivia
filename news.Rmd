@@ -1,0 +1,35 @@
+---
+title: "News"
+output:
+  html_document:
+    #number_sections:
+    toc: true
+    toc_float: true
+    toc_depth: 2
+---
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ERV5WXQZ44"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ERV5WXQZ44');
+</script>
+</head> 
+
+# __2022__
+
+## **Getting to the root of corn domestication; knowledge may help plant breeders**
+### [Full Story](https://www.psu.edu/news/research/story/getting-root-corn-domestication-knowledge-may-help-plant-breeders/)
+
+## **Encuentran la clave de cómo se domesticó el maíz moderno a partir del teosinte**
+### [Full Story](https://www.jornada.com.mx/notas/2022/04/20/ciencia-y-tecnologia/encuentran-la-clave-de-como-se-domestico-el-maiz-moderno-a-partir-del-teosinte/)
+
+
+
+
+
+
+

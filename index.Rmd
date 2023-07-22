@@ -40,6 +40,32 @@ title: "Ivan Lopez-Valdivia"
 
 * **Lopez-Valdivia Ivan** (2019) Caracterización de raíces milenarias de maíz provenientes de Tehuacán: comparación con poblaciones actuales del género Zea. CINVESTAV. Mexico. Tesis de Maestria. [Full Record](LopezValdivia_master.pdf)
 
+
+
+## About
+
+![Maize fields at The Russell E. Larson Agricultural Research Center at Rock Springs, Penn State University](rocksprings2021.png)
+
+### I'm a Mexican Ph.D. student devoted to understanding the physiological and morphological root adaptations along the domestication and dispersion of maize and wheat. I use greenhouse, field, and modeling approaches to study the role of root anatomy, architecture, and physiology in the adaptation to abiotic stress.
+![Sampling Wheat roots at CIMMYT Obregon Station 2023](field_CIMMYT.png)
+
+### I'm doing my doctoral thesis under the mentorship of [Jonathan Lynch](https://plantscience.psu.edu/directory/jpl4) at Pennsylvania State University where we implement high-throughput phenotyping of root systems to capture the variation of root phenes (most elemental components of the phenotype), their interactions, and functions under abiotic stress. 
+
+
+![Sampling maize roots at Penn State Greenhouse 2021](ivan1.png)
+
+
+### Last year I shared advances of my project related with the local adaptation of root traits to arid and humid soils at the [ASA, CSSA & SSSA Annual Meeting](https://www.acsmeetings.org/) in Baltimore. 
+
+
+![Poster sesion at ASA, CSSA & SSSA Annual Meeting 2022](ASA_meeting.png)
+
+
+### Before coming to Penn State University I studied a master degree in Plant Biotechnology at [LANGEBIO Cinvestav](https://langebio.cinvestav.mx/) where I characterized the root anatomy and architecture of 5000-year-old maize specimens coming from the San Marcos cave at Tehuacan Valley. I performed this research at [Paleogenomics Lab](https://langebio.cinvestav.mx/Dr-Rafael-Montiel) and [Apomixis Lab](https://langebio.cinvestav.mx/Dr-Jean-Philippe-Vielle.html) at LANGEBIO, and in collaboration with the [Roots Lab](https://plantscience.psu.edu/research/labs/roots) at Penn State University. We found [evidences](https://www.pnas.org/doi/10.1073/pnas.2110245119) that the root traits were domesticated gradually in maize. Further information can be found [here](https://www.psu.edu/news/research/story/getting-root-corn-domestication-knowledge-may-help-plant-breeders/). I was so fortunate to share my master thesis work at ["Sexto Congreso Internacional El patrimonio Cultural y las nuevas tecnologias"](https://www.youtube.com/embed/EHGk6d-GebA) where I talked in detail about how root traits were affected gradually during the domestication of maize.
+
+![Master thesis defense at CINVESTAV-Langebio auditorium and oral presentation in Sexto Congreso Internacional El Patrimonio Cultural y las nuevas tecnologias. 2019](Inah_cinvestav.png)
+
+
 ##
 ##
 ##

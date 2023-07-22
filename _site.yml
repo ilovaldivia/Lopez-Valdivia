@@ -5,14 +5,14 @@ navbar:
   left:
     - text: "Home"
       href: index.html
-    - text: "About"
-      href: about.html
     - text: "Research"
       href: research.html
     - text: "Publications"
       href: publications.html
     - text: "Lectures"
-      href: lectures.html      
+      href: lectures.html 
+    - text: "News"
+      href: news.html 
   right:
     - icon: fa-brands fa-linkedin
       href: https://www.linkedin.com/in/ivan-lopez-valdivia-575429252/
