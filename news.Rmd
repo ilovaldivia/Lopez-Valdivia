@@ -19,6 +19,8 @@ output:
 </script>
 </head> 
 
+![](news_paper.png)
+
 # __2022__
 
 ## **Getting to the root of corn domestication; knowledge may help plant breeders**
@@ -26,6 +28,10 @@ output:
 
 ## **Encuentran la clave de cómo se domesticó el maíz moderno a partir del teosinte**
 ### [Full Story](https://www.jornada.com.mx/notas/2022/04/20/ciencia-y-tecnologia/encuentran-la-clave-de-como-se-domestico-el-maiz-moderno-a-partir-del-teosinte/)
+
+# __2016__
+## **239 trabajos de jóvenes de 12 instituciones del estado se presentaron en encuentro científico coordinado por la UAA y CONACyT**
+### [Full Story](https://www.uaa.mx/rectoria/dcrp/?p=23188)
 
 
 
