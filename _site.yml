@@ -13,6 +13,8 @@ navbar:
       href: lectures.html 
     - text: "News"
       href: news.html 
+    - text: "CV"
+      href: CV_ILV.pdf 
   right:
     - icon: fa-brands fa-linkedin
       href: https://www.linkedin.com/in/ivan-lopez-valdivia-575429252/
