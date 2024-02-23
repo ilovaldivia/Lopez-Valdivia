@@ -13,7 +13,7 @@ title: "Publications"
 </script>
 </head> 
 
-![OpenSimRoot](website_animation_pics_v4.gif)
+![OpenSimRoot](website_animation_pics_v5.gif)
 
 ### 2023
 * Jagdeep Singh Sidhu, **Ivan Lopez-Valdivia**,  Christopher F Strock, Hannah M Schneider, Jonathan Lynch. 2023. Cortical parenchyma wall width (CPW) regulates root metabolic cost and maize performance under suboptimal water availability. biorxiv  [Full Record](https://www.biorxiv.org/content/10.1101/2023.09.29.560009v1)
