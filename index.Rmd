@@ -22,8 +22,7 @@ title: "Ivan Lopez-Valdivia"
 
 
 # Home
-
-![](IMG_0871.png)
+![](website_animation_pics_v1.gif)
 
 ### Ph.D. Candidate at [Roots Lab](https://plantscience.psu.edu/research/labs/roots)
 ### 310 Tyson Building
