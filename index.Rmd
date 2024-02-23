@@ -14,15 +14,8 @@ title: "Ivan Lopez-Valdivia"
 </script>
 </head> 
 
-# **New lecture!**
-## **Root evolution during maize domestication**
-### [Zeavolution](https://www.youtube.com/@zeavolution8966)
-<iframe width="560" height="315" src="https://www.youtube.com/embed/JeKKFliv-N0?si=iuVfWlS7Ump9yPWB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-
-
 # Home
-![](website_animation_pics_v1.gif)
+![](website_animation_pics_v3.gif)
 
 ### Ph.D. Candidate at [Roots Lab](https://plantscience.psu.edu/research/labs/roots)
 ### 310 Tyson Building
