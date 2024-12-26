@@ -12,7 +12,9 @@ navbar:
     - text: "Lectures"
       href: lectures.html 
     - text: "News"
-      href: news.html 
+      href: news.html
+    - text: "Contact"  
+      href: contact.html 
     - text: "CV"
       href: CV_ILV.pdf 
   right:
