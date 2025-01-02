@@ -14,7 +14,7 @@ title: "Ivan Lopez-Valdivia, PhD"
 </script>
 </head> 
 
-# Welcome! v3
+# Welcome! v4
 
 ![The International Maize and Wheat Improvement Center (CIMMYT) headquarters, Texcoco, Mexico.](cimmyt_picture.png)
 
@@ -30,7 +30,6 @@ title: "Ivan Lopez-Valdivia, PhD"
 ###
 *	### **Key Root Traits for Improved Crop Performance:** I'm particularly interested in explroring the phenotypic variation of maize landraces and understanding the roles of cortical cell size, cortical cell file number, root cortical aerenchyma, and lateral root branching density in enhancing resource acquisition, especially under stress conditions like low phosphorus and low nitrogen availability.
 
-![Evaluation of 20 genotypes of maize landraces under suboptimal nitrogen and phosphorus conditions. Photo credits: Dr. Dylan Jones](cimmyt_picture.png)
 
 ![Evaluation of 20 genotypes of maize landraces under suboptimal nitrogen and phosphorus conditions. Photo credits: Dr. Dylan Jones](Exp3.png)
 
