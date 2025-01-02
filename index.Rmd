@@ -14,13 +14,11 @@ title: "Ivan Lopez-Valdivia, PhD"
 </script>
 </head> 
 
-# Welcome! v5
+# Welcome! v6
 
 ![The International Maize and Wheat Improvement Center (CIMMYT) headquarters, Texcoco, Mexico.](test1.png)
 
-
-
-# 
+##
 ### Hi there! Thank you for visiting my website! 
 
 ### My name is Ivan Lopez Valdivia, and I'm a postdoctoral researcher at the [Leibniz Institute of Plant Genetics and Crop Plant Research](https://www.ipk-gatersleben.de/en/), working with [Prof. Hannah Schneider](https://scholar.google.de/citations?user=_lMz9nYAAAAJ&hl=en) in the [Genetics and Physiology of Root Development laboratory](https://www.ipk-gatersleben.de/en/research/physiology-and-cell-biology/genetics-and-physiology-of-root-development). 
