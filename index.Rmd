@@ -14,11 +14,7 @@ title: "Ivan Lopez-Valdivia, PhD"
 </script>
 </head> 
 
-# Welcome! v14
 
-![The International Maize and Wheat Improvement Center (CIMMYT) headquarters, Texcoco, Mexico.](Exp3.png)
-
-##
 ### Hi there! Thank you for visiting my website! 
 
 ### My name is Ivan Lopez Valdivia, and I'm a postdoctoral researcher at the [Leibniz Institute of Plant Genetics and Crop Plant Research](https://www.ipk-gatersleben.de/en/), working with [Prof. Hannah Schneider](https://scholar.google.de/citations?user=_lMz9nYAAAAJ&hl=en) in the [Genetics and Physiology of Root Development laboratory](https://www.ipk-gatersleben.de/en/research/physiology-and-cell-biology/genetics-and-physiology-of-root-development). 
@@ -29,7 +25,7 @@ title: "Ivan Lopez-Valdivia, PhD"
 *	### **Key Root Traits for Improved Crop Performance:** I'm particularly interested in explroring the phenotypic variation of maize landraces and understanding the roles of cortical cell size, cortical cell file number, root cortical aerenchyma, and lateral root branching density in enhancing resource acquisition, especially under stress conditions like low phosphorus and low nitrogen availability.
 
 
-![Evaluation of 20 genotypes of maize landraces under suboptimal nitrogen and phosphorus conditions. Photo credits: Dr. Dylan Jones](test5.png)
+![Evaluation of 20 genotypes of maize landraces under suboptimal nitrogen and phosphorus conditions. Photo credits: Dr. Dylan Jones](Exp3.png)
 
 ## 
 *	### **Functional-Structural Plant Modeling:** I employ advanced modeling tools such as [OpenSimRoot](https://www.fz-juelich.de/en/ibg/ibg-2/expertise/technology-process-development/opensimroot) to simulate plant growth in response to environmental factors such as nutrient availability and water stress. By integrating root phenotypes into these models, I can predict how different root traits contribute to plant performance in various environments.
