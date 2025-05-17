@@ -40,25 +40,74 @@ title: "Ivan Lopez-Valdivia, PhD"
 
 ##
 ## Publications - [ORCID](https://orcid.org/0000-0003-1955-4989)/[Google Scholar](https://scholar.google.com/citations?hl=es&user=XMdjIEsAAAAJ&view_op=list_works&gmla=AJsN-F6isZkiyjPpbsJBrlo_uGiqM4QcqputVuSh1_UxWGu-cffGUq_q7upHdrAUoy6T32ajtAO8NPw6FlwkvcrSEKIASgpEhg)
+
+### 2025
+* Dylan H. Jones, Kaisa Kajala, Dorota Kawa, **Ivan Lopez-Valdivia**, Tino Kreszies & Hannah M. Schneider (2025) The root cortex of the Poaceae: a diverse, dynamic, and dispensable tissue. Plant and Soil. [Full Record](https://link.springer.com/article/10.1007/s11104-025-07498-0)
+
+<audio controls>
+  <source src="Episode6_English.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
 ### 2024
 
 * **Ivan Lopez-Valdivia**, Miguel Vallebueno-Estrada, Harini Rangarajan, Kelly Swarts, Bruce F. Benz, Michael Blake, [Jagdeep Singh Sidhu](https://jagdeepideas.com/), Sergio Perez-Limon, Ruairidh J. H. Sawers, Hannah Schneider, Jonathan P. Lynch. In silico analysis of the evolution of root phenotypes during maize domestication in Neolithic soils of Tehuacán, biorxiv [Full Record](https://www.biorxiv.org/content/10.1101/2024.11.18.623787v2)
 
+<audio controls>
+  <source src="Episode5_English.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
+## 
 
 * **Ivan Lopez-Valdivia**, Harini Rangarajan, Miguel Vallebueno-Estrada, Jonathan P. Lynch Exploring yield stability and the fitness landscape of maize landrace root phenotypes in silico. biorxiv  [Full Record](https://www.biorxiv.org/content/10.1101/2024.09.07.609951v1)
 
+<audio controls>
+  <source src="Episode7_English.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
+##
 
 * [Jagdeep Singh Sidhu](https://jagdeepideas.com/), **Ivan Lopez-Valdivia**,  Christopher F Strock, Hannah M Schneider, Jonathan Lynch. 2024. Cortical parenchyma wall width regulates root metabolic cost and maize performance under suboptimal water availability. Journal of Experimental Botany [Full Record](https://academic.oup.com/jxb/article/75/18/5750/7658190)
+
+<audio controls>
+  <source src="Episode4_English.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
+##
 
 ### 2023
 
 * **Ivan Lopez-Valdivia**; Xiyu Yang; Jonathan P. Lynch. 2023. Large root cortical cells and reduced cortical cell files improve growth under suboptimal nitrogen in silico. Plant Physiology,  [Full Record](https://academic.oup.com/plphys/advance-article/doi/10.1093/plphys/kiad214/7114972?login=true)
 
+<audio controls>
+  <source src="Episode2_English.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
+##
+
 * Miguel Vallebueno-Estrada; Guillermo G. Hernández-Robles; Eduardo González-Orozco; **Ivan Lopez-Valdivia**; Teresa Rosales Tham; Víctor Vásquez Sánchez; Kelly Swarts; Tom D. Dillehay; Jean-Philippe Vielle-Calzada; Rafael Montiel. 2023. Domestication and lowland adaptation of coastal preceramic maize from Paredones, Peru. eLife, [Full Record](https://elifesciences.org/articles/83149)
+
+<audio controls>
+  <source src="Episode3_English.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
+##
 
 ### 2022
 
 * **Lopez-Valdivia Ivan**, Alden Perkins, Hannah Schneider, Miguel Vallebueno-Estrada, James Burridge, Eduardo González-Orozco, Aurora Montufar, Rafael Montiel, Jonathan Lynch, Jean-Philippe Vielle-Calzada. 2022. Gradual domestication of root traits in the earliest maize from Tehuacan. PNAS Vol. 119 No. 17 e2110245119 [Full Record](https://www.pnas.org/doi/epdf/10.1073/pnas.2110245119)
+
+<audio controls>
+  <source src="Episode1_English.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
+##
 
 ### 2019
 

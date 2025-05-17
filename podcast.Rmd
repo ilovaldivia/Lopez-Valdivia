@@ -14,12 +14,137 @@ title: "Podcast"
 </script>
 </head> 
 
+# Welcome to **Root Matter**, the podcast that brings my latest research to your ears! I used AI to create concise audio summaries of my most recent articles, making it easier than ever to communicate my research!
+# Desliza hacia abajo para **Español**
 
 ##
-## Podcast 
-### Episode 1 -  Gradual domestication of root traits in the earliest maize from Tehuacan
+## Episode 1 
+###  Tehuacan roots: the underground history of the origin of maize 
 
 <audio controls>
   <source src="Episode1_English.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
+##
+## Episode 2 
+###  Efficient roots: less nitrogen, more maize!
+
+<audio controls>
+  <source src="Episode2_English.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
+##
+## Episode 3 
+###  The Journey of Maize to Peru
+
+<audio controls>
+  <source src="Episode3_English.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
+##
+## Episode 4 
+###  The Power of Thick Roots: How Maize Cell Walls Fight Drought
+
+<audio controls>
+  <source src="Episode4_English.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
+##
+## Episode 5 
+###  Back to the future: simulations of the past to understand modern maize. 
+
+<audio controls>
+  <source src="Episode5_English.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
+##
+## Episode 6 
+###  The root cortex of the Poaceae: a diverse, dynamic, and dispensable tissue
+
+<audio controls>
+  <source src="Episode6_English.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
+##
+## Episode 7 
+###  Simulating Success Belowground: Engineering Maize Roots for Stress Adaptation
+
+<audio controls>
+  <source src="Episode7_English.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
+## __________________________________________________________________
+##
+# Version en Español
+##
+# ¡Bienvenidos a **Raiz del Asunto**, el podcast que trae mis últimas investigaciones a tus oídos! ¡Usé Inteligencia Artificial para crear resúmenes de audio concisos de mis artículos más recientes, y con esto mejorar la comunicación de mi investigación!
+
+##
+## Episodio 1 
+### Raíces de Tehuacán: La Historia Oculta del Maíz Antiguo
+
+<audio controls>
+  <source src="Episode1_Espanol.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
+##
+## Episodio 2 
+###  Raíces Eficientes: Menos Nitrógeno, Más Maíz!
+
+<audio controls>
+  <source src="Episode2_Espanol.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
+##
+## Episodio 3 
+###  La Travesía del Maíz hacia el Perú
+
+<audio controls>
+  <source src="Episode3_Espanol.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
+##
+## Episodio 4 
+###  El Poder de las Raíces Gruesas: las Paredes Celulares del Maíz ayudan contra la Sequía
+
+<audio controls>
+  <source src="Episode4_Espanol.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
+##
+## Episodio 5 
+###  Volver al futuro: simulaciones del pasado para entender el maiz moderno
+
+<audio controls>
+  <source src="Episode5_Espanol.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
+##
+## Episodio 6 
+###  El Córtex Radicular de Poaceae: Diverso, Dinámico y Prescindible
+
+<audio controls>
+  <source src="Episode6_Espanol.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
+##
+## Episodio 7 
+###  Simulando el Éxito Subterráneo: Diseñando Raíces de Maíz para Adaptarse al Estrés
+
+<audio controls>
+  <source src="Episode7_Espanol.wav" type="audio/wav">
   Your browser does not support the audio element.
 </audio>
