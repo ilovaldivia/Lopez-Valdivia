@@ -3,7 +3,6 @@ title: "Podcast"
 ---
 
 <head>
-<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-ERV5WXQZ44"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -134,3 +133,39 @@ title: "Podcast"
   <source src="Episode7_Espanol.wav" type="audio/wav">
   Your browser does not support the audio element.
 </audio>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const audioPlayers = document.querySelectorAll('audio');
+
+  audioPlayers.forEach(player => {
+    player.addEventListener('play', function() {
+      // Intentar obtener el nombre del archivo de la etiqueta <source>
+      let audioSrc = 'Unknown Audio';
+      const sourceElement = player.querySelector('source');
+      if (sourceElement && sourceElement.src) {
+        // Extraer solo el nombre del archivo de la URL completa
+        const fullPath = sourceElement.src;
+        audioSrc = fullPath.substring(fullPath.lastIndexOf('/') + 1);
+      }
+      
+      // Alternativamente, intentar obtener el título del encabezado anterior si existe
+      // Esto es un poco más complejo y depende de la estructura HTML exacta.
+      // Por simplicidad, nos quedaremos con el src del audio por ahora, 
+      // pero podrías explorar 'player.previousElementSibling.previousElementSibling.innerText'
+      // si el H2 siempre está dos elementos antes.
+      // let audioTitleFromHeader = player.closest('div').querySelector('h2').innerText; // Esto es un ejemplo, puede necesitar ajuste
+
+      console.log('Audio play event triggered for: ' + audioSrc); // Para depuración en la consola del navegador
+      
+      gtag('event', 'audio_play', {
+        'audio_title': audioSrc,
+        'page_title': document.title // Opcional: el título de la página
+        // Puedes añadir más parámetros si lo necesitas
+        // 'event_category': 'Podcast',
+        // 'event_label': audioSrc
+      });
+    });
+  });
+});
+</script>
