@@ -139,33 +139,113 @@ document.addEventListener('DOMContentLoaded', function() {
   const audioPlayers = document.querySelectorAll('audio');
 
   audioPlayers.forEach(player => {
-    player.addEventListener('play', function() {
-      // Intentar obtener el nombre del archivo de la etiqueta <source>
-      let audioSrc = 'Unknown Audio';
-      const sourceElement = player.querySelector('source');
+    // --- Helper para obtener el nombre del archivo de audio ---
+    function getAudioSrc(p) {
+      let src = 'Unknown Audio'; // Valor por defecto
+      const sourceElement = p.querySelector('source');
       if (sourceElement && sourceElement.src) {
-        // Extraer solo el nombre del archivo de la URL completa
         const fullPath = sourceElement.src;
-        audioSrc = fullPath.substring(fullPath.lastIndexOf('/') + 1);
+        // Extrae solo el nombre del archivo de la URL
+        src = fullPath.substring(fullPath.lastIndexOf('/') + 1);
       }
-      
-      // Alternativamente, intentar obtener el título del encabezado anterior si existe
-      // Esto es un poco más complejo y depende de la estructura HTML exacta.
-      // Por simplicidad, nos quedaremos con el src del audio por ahora, 
-      // pero podrías explorar 'player.previousElementSibling.previousElementSibling.innerText'
-      // si el H2 siempre está dos elementos antes.
-      // let audioTitleFromHeader = player.closest('div').querySelector('h2').innerText; // Esto es un ejemplo, puede necesitar ajuste
+      return src;
+    }
 
-      console.log('Audio play event triggered for: ' + audioSrc); // Para depuración en la consola del navegador
-      
+    // --- Inicializar/resetear las banderas de progreso ---
+    // Esto ayuda a asegurar que los eventos de progreso se envíen solo una vez  por hito por sesión de reproducción.
+    function resetProgressFlags(p) {
+      p._progressReached = { 
+        q1: false, // 25%
+        q2: false, // 50%
+        q3: false, // 75%
+        q4: false  // 100% (completado)
+      };
+    }
+    resetProgressFlags(player); // Inicializa las banderas cuando la página carga
+
+    // --- Evento: Cuando el audio comienza a reproducirse ('play') ---
+    player.addEventListener('play', function() {
+      const audioSrc = getAudioSrc(this);
+      const pageTitle = document.title;
+
+      // Envía el evento inicial de reproducción (como antes)
       gtag('event', 'audio_play', {
         'audio_title': audioSrc,
-        'page_title': document.title // Opcional: el título de la página
-        // Puedes añadir más parámetros si lo necesitas
-        // 'event_category': 'Podcast',
-        // 'event_label': audioSrc
+        'page_title': pageTitle
       });
+      console.log('GA: audio_play - ' + audioSrc);
+
+      // Si el audio se reproduce desde el principio (o muy cerca),
+      // resetea las banderas de progreso para esta nueva sesión de escucha.
+      if (this.currentTime < 1.5) { // Menos de 1.5 segundos se considera "desde el inicio"
+        resetProgressFlags(this);
+        console.log('Progress flags reset for: ' + audioSrc);
+      }
     });
+
+    // --- Evento: Mientras el audio se reproduce ('timeupdate') ---
+    // Este evento se dispara repetidamente mientras el tiempo de reproducción cambia.
+    player.addEventListener('timeupdate', function() {
+      // Asegúrate de que la duración del audio esté disponible y sea un número válido
+      if (!this.duration || !isFinite(this.duration)) {
+        return; 
+      }
+
+      const audioSrc = getAudioSrc(this);
+      const percentage = (this.currentTime / this.duration) * 100;
+
+      // Hito del 25%
+      if (percentage >= 25 && !this._progressReached.q1) {
+        gtag('event', 'audio_progress', {
+          'audio_title': audioSrc,
+          'audio_percent_complete': 25
+        });
+        this._progressReached.q1 = true;
+        console.log('GA: audio_progress 25% - ' + audioSrc);
+      }
+      // Hito del 50%
+      if (percentage >= 50 && !this._progressReached.q2) {
+        gtag('event', 'audio_progress', {
+          'audio_title': audioSrc,
+          'audio_percent_complete': 50
+        });
+        this._progressReached.q2 = true;
+        console.log('GA: audio_progress 50% - ' + audioSrc);
+      }
+      // Hito del 75%
+      if (percentage >= 75 && !this._progressReached.q3) {
+        gtag('event', 'audio_progress', {
+          'audio_title': audioSrc,
+          'audio_percent_complete': 75
+        });
+        this._progressReached.q3 = true;
+        console.log('GA: audio_progress 75% - ' + audioSrc);
+      }
+      // (El 100% se maneja con el evento 'ended' para mayor precisión)
+    });
+
+    // --- Evento: Cuando el audio termina de reproducirse ('ended') ---
+    player.addEventListener('ended', function() {
+      const audioSrc = getAudioSrc(this);
+
+      // Hito del 100% (completado)
+      if (!this._progressReached.q4) { // Enviar solo si no se ha enviado antes
+        gtag('event', 'audio_progress', {
+          'audio_title': audioSrc,
+          'audio_percent_complete': 100
+        });
+        this._progressReached.q4 = true;
+        console.log('GA: audio_progress 100% (ended) - ' + audioSrc);
+      }
+      // Resetea las banderas para una posible nueva reproducción del mismo audio
+      resetProgressFlags(this);
+    });
+
+    // --- Opcional: Manejar pausas (para depuración o lógica avanzada) ---
+    // player.addEventListener('pause', function() {
+    //   const audioSrc = getAudioSrc(this);
+    //   console.log('Audio paused: ' + audioSrc + ' at ' + this.currentTime.toFixed(1) + 's');
+    // });
   });
 });
 </script>
