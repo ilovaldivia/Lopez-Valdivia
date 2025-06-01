@@ -19,7 +19,11 @@ title: "Ivan Lopez-Valdivia, PhD"
 
 ## _________________________________________________
 
-### NEWS: Check out my new [**AI-Podcast!!**](https://ilovaldivia.github.io/Lopez-Valdivia/podcast.html) 🎙️🌱🌽 - May 17, 2025
+### **NEWS:** 
+
+* ### May 30, 2025 - Latest article in  [**New Phytologist**](https://nph.onlinelibrary.wiley.com/doi/10.1111/nph.70245) 🌽🌽🌽 
+
+* ### May 17, 2025 - Check out my new [**AI-Podcast!!**](https://ilovaldivia.github.io/Lopez-Valdivia/podcast.html) 🎙️🌱🌽
 
 ## _________________________________________________
 
@@ -50,6 +54,16 @@ title: "Ivan Lopez-Valdivia, PhD"
 ## Publications - [ORCID](https://orcid.org/0000-0003-1955-4989)/[Google Scholar](https://scholar.google.com/citations?hl=es&user=XMdjIEsAAAAJ&view_op=list_works&gmla=AJsN-F6isZkiyjPpbsJBrlo_uGiqM4QcqputVuSh1_UxWGu-cffGUq_q7upHdrAUoy6T32ajtAO8NPw6FlwkvcrSEKIASgpEhg)
 
 ### 2025
+
+* **Ivan Lopez-Valdivia**, Miguel Vallebueno-Estrada, Harini Rangarajan, Kelly Swarts, Bruce F. Benz, Michael Blake, [Jagdeep Singh Sidhu](https://jagdeepideas.com/), Sergio Perez-Limon, Ruairidh J. H. Sawers, Hannah Schneider, Jonathan P. Lynch. In silico analysis of the evolution of root phenotypes during maize domestication in Neolithic soils of Tehuacán, New Phytologist [Full Record](https://nph.onlinelibrary.wiley.com/doi/10.1111/nph.70245)
+
+<audio controls>
+  <source src="Episode5_English.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
+##
+
 * Dylan H. Jones, Kaisa Kajala, Dorota Kawa, **Ivan Lopez-Valdivia**, Tino Kreszies & Hannah M. Schneider (2025) The root cortex of the Poaceae: a diverse, dynamic, and dispensable tissue. Plant and Soil. [Full Record](https://link.springer.com/article/10.1007/s11104-025-07498-0)
 
 <audio controls>
@@ -57,16 +71,9 @@ title: "Ivan Lopez-Valdivia, PhD"
   Your browser does not support the audio element.
 </audio>
 
+##
+
 ### 2024
-
-* **Ivan Lopez-Valdivia**, Miguel Vallebueno-Estrada, Harini Rangarajan, Kelly Swarts, Bruce F. Benz, Michael Blake, [Jagdeep Singh Sidhu](https://jagdeepideas.com/), Sergio Perez-Limon, Ruairidh J. H. Sawers, Hannah Schneider, Jonathan P. Lynch. In silico analysis of the evolution of root phenotypes during maize domestication in Neolithic soils of Tehuacán, biorxiv [Full Record](https://www.biorxiv.org/content/10.1101/2024.11.18.623787v2)
-
-<audio controls>
-  <source src="Episode5_English.wav" type="audio/wav">
-  Your browser does not support the audio element.
-</audio>
-
-## 
 
 * **Ivan Lopez-Valdivia**, Harini Rangarajan, Miguel Vallebueno-Estrada, Jonathan P. Lynch Exploring yield stability and the fitness landscape of maize landrace root phenotypes in silico. biorxiv  [Full Record](https://www.biorxiv.org/content/10.1101/2024.09.07.609951v1)
 
