@@ -1,5 +1,6 @@
 ---
 title: "Ivan Lopez-Valdivia, PhD"
+description: "Here you will find all relevant information about Ivan Lopez-Valdivia research, including latest papers, current research, contact information and more."
 ---
 
 <head>
@@ -21,9 +22,11 @@ title: "Ivan Lopez-Valdivia, PhD"
 
 ### **NEWS:** 
 
-* ### May 30, 2025 - Latest article in  [**New Phytologist**](https://nph.onlinelibrary.wiley.com/doi/10.1111/nph.70245) 🌽🌽🌽 
+* ### **July 4, 2025** - Today Dr. Peng Yu has written a [**commentary article**](https://nph.onlinelibrary.wiley.com/doi/10.1111/nph.70376?fbclid=IwY2xjawLV31dleHRuA2FlbQIxMQABHgBeAWWfg6-Q3biYNici-GprOGpZKq508LDi4Qf7f5yUGlMeAqwoICf74rr4_aem_LPTcf_v43ujAoU6aiq7tWg)  about our [**latest publication**](https://nph.onlinelibrary.wiley.com/doi/10.1111/nph.70245)  in New Phytologist
 
-* ### May 17, 2025 - Check out my new [**AI-Podcast!!**](https://ilovaldivia.github.io/Lopez-Valdivia/podcast.html) 🎙️🌱🌽
+* ### **May 30, 2025** - Latest article in  [**New Phytologist**](https://nph.onlinelibrary.wiley.com/doi/10.1111/nph.70245) 🌽🌽🌽 
+
+* ### **May 17, 2025** - Check out my new [**AI-Podcast!!**](https://ilovaldivia.github.io/Lopez-Valdivia/podcast.html) 🎙️🌱🌽
 
 ## _________________________________________________
 

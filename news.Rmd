@@ -1,5 +1,6 @@
 ---
 title: "News"
+description: "News about the most recent news on Ivan Lopez-Valdivia's research."
 output:
   html_document:
     #number_sections:
