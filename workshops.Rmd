@@ -25,6 +25,12 @@ output:
 
 ***
 
+![Maize root growth](website_animation_pics_v4.gif)
+
+
+***
+
+
 # __Introduction__
 
 ### Hi there! Welcome to the OpenSimRoot workshop! 
