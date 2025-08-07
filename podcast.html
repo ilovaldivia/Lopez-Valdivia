@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Podcast</title>
+
+<script src="site_libs/header-attrs-2.28/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet" />
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ERV5WXQZ44"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ERV5WXQZ44');
+</script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Ivan Lopez-Valdivia</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="podcast.html">Podcast</a>
+</li>
+<li>
+  <a href="research.html">Research</a>
+</li>
+<li>
+  <a href="publications.html">Publications</a>
+</li>
+<li>
+  <a href="lectures.html">Lectures</a>
+</li>
+<li>
+  <a href="news.html">News</a>
+</li>
+<li>
+  <a href="contact.html">Contact</a>
+</li>
+<li>
+  <a href="CV_ILV.pdf">CV</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="https://www.linkedin.com/in/ivan-lopez-valdivia-575429252/">
+    <span class="fa fa-brands fa-linkedin"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://twitter.com/IlvIvan">
+    <span class="fa fa-brands fa-twitter"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://scholar.google.com/citations?hl=es&amp;user=XMdjIEsAAAAJ&amp;view_op=list_works&amp;gmla=AJsN-F6isZkiyjPpbsJBrlo_uGiqM4QcqputVuSh1_UxWGu-cffGUq_q7upHdrAUoy6T32ajtAO8NPw6FlwkvcrSEKIASgpEhg">
+    <span class="fa fa-brands fa-google"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Podcast</h1>
+
+</div>
+
+
+<head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ERV5WXQZ44"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ERV5WXQZ44');
+</script>
+</head>
+<div
+id="welcome-to-root-matter-the-podcast-that-brings-my-latest-research-to-your-ears-i-used-ai-to-create-concise-audio-summaries-of-my-most-recent-articles-making-it-easier-than-ever-to-communicate-my-research"
+class="section level1">
+<h1>Welcome to <strong>Root Matter</strong>, the podcast that brings my
+latest research to your ears! I used AI to create concise audio
+summaries of my most recent articles, making it easier than ever to
+communicate my research!</h1>
+</div>
+<div id="desliza-hacia-abajo-para-español" class="section level1">
+<h1>Desliza hacia abajo para <strong>Español</strong></h1>
+<div id="section" class="section level2">
+<h2></h2>
+</div>
+<div
+id="episode-1---tehuacan-roots-the-underground-history-of-the-origin-of-maize"
+class="section level2">
+<h2><strong>Episode 1 - Tehuacan roots: the underground history of the
+origin of maize</strong></h2>
+<audio controls>
+<source src="Episode1_English.wav" type="audio/wav">
+<p>Your browser does not support the audio element. </audio></p>
+</div>
+<div id="section-1" class="section level2">
+<h2></h2>
+</div>
+<div id="episode-2---efficient-roots-less-nitrogen-more-maize"
+class="section level2">
+<h2><strong>Episode 2 - Efficient roots: less nitrogen, more
+maize!</strong></h2>
+<audio controls>
+<source src="Episode2_English.wav" type="audio/wav">
+<p>Your browser does not support the audio element. </audio></p>
+</div>
+<div id="section-2" class="section level2">
+<h2></h2>
+</div>
+<div id="episode-3---the-journey-of-maize-to-peru"
+class="section level2">
+<h2><strong>Episode 3 - The Journey of Maize to Peru</strong></h2>
+<audio controls>
+<source src="Episode3_English.wav" type="audio/wav">
+<p>Your browser does not support the audio element. </audio></p>
+</div>
+<div id="section-3" class="section level2">
+<h2></h2>
+</div>
+<div
+id="episode-4---the-power-of-thick-roots-how-maize-cell-walls-fight-drought"
+class="section level2">
+<h2><strong>Episode 4 - The Power of Thick Roots: How Maize Cell Walls
+Fight Drought</strong></h2>
+<audio controls>
+<source src="Episode4_English.wav" type="audio/wav">
+<p>Your browser does not support the audio element. </audio></p>
+</div>
+<div id="section-4" class="section level2">
+<h2></h2>
+</div>
+<div
+id="episode-5---back-to-the-future-simulations-of-the-past-to-understand-modern-maize"
+class="section level2">
+<h2><strong>Episode 5 - Back to the future: simulations of the past to
+understand modern maize</strong></h2>
+<audio controls>
+<source src="Episode5_English.wav" type="audio/wav">
+<p>Your browser does not support the audio element. </audio></p>
+</div>
+<div id="section-5" class="section level2">
+<h2></h2>
+</div>
+<div
+id="episode-6---the-root-cortex-of-the-poaceae-a-diverse-dynamic-and-dispensable-tissue"
+class="section level2">
+<h2><strong>Episode 6 - The root cortex of the Poaceae: a diverse,
+dynamic, and dispensable tissue</strong></h2>
+<audio controls>
+<source src="Episode6_English.wav" type="audio/wav">
+<p>Your browser does not support the audio element. </audio></p>
+</div>
+<div id="section-6" class="section level2">
+<h2></h2>
+</div>
+<div
+id="episode-7---simulating-success-belowground-engineering-maize-roots-for-stress-adaptation"
+class="section level2">
+<h2><strong>Episode 7 - Simulating Success Belowground: Engineering
+Maize Roots for Stress Adaptation</strong></h2>
+<audio controls>
+<source src="Episode7_English.wav" type="audio/wav">
+<p>Your browser does not support the audio element. </audio></p>
+</div>
+<div id="section-7" class="section level2">
+<h2>__________________________________________________________________</h2>
+</div>
+<div id="section-8" class="section level2">
+<h2></h2>
+</div>
+</div>
+<div id="version-en-español" class="section level1">
+<h1>Version en Español</h1>
+<div id="section-9" class="section level2">
+<h2></h2>
+</div>
+</div>
+<div
+id="bienvenidos-a-raiz-del-asunto-el-podcast-que-trae-mis-últimas-investigaciones-a-tus-oídos-usé-inteligencia-artificial-para-crear-resúmenes-de-audio-concisos-de-mis-artículos-más-recientes-y-con-esto-mejorar-la-comunicación-de-mi-investigación"
+class="section level1">
+<h1>¡Bienvenidos a <strong>Raiz del Asunto</strong>, el podcast que trae
+mis últimas investigaciones a tus oídos! ¡Usé Inteligencia Artificial
+para crear resúmenes de audio concisos de mis artículos más recientes, y
+con esto mejorar la comunicación de mi investigación!</h1>
+<div id="section-10" class="section level2">
+<h2></h2>
+</div>
+<div
+id="episodio-1---raíces-de-tehuacán-la-historia-oculta-del-maíz-antiguo"
+class="section level2">
+<h2><strong>Episodio 1 - Raíces de Tehuacán: La Historia Oculta del Maíz
+Antiguo</strong></h2>
+<audio controls>
+<source src="Episode1_Espanol.wav" type="audio/wav">
+<p>Your browser does not support the audio element. </audio></p>
+</div>
+<div id="section-11" class="section level2">
+<h2></h2>
+</div>
+<div id="episodio-2---raíces-eficientes-menos-nitrógeno-más-maíz"
+class="section level2">
+<h2><strong>Episodio 2 - Raíces Eficientes: Menos Nitrógeno, Más
+Maíz!</strong></h2>
+<audio controls>
+<source src="Episode2_Espanol.wav" type="audio/wav">
+<p>Your browser does not support the audio element. </audio></p>
+</div>
+<div id="section-12" class="section level2">
+<h2></h2>
+</div>
+<div id="episodio-3---la-travesía-del-maíz-hacia-el-perú"
+class="section level2">
+<h2><strong>Episodio 3 - La Travesía del Maíz hacia el
+Perú</strong></h2>
+<audio controls>
+<source src="Episode3_Espanol.wav" type="audio/wav">
+<p>Your browser does not support the audio element. </audio></p>
+</div>
+<div id="section-13" class="section level2">
+<h2></h2>
+</div>
+<div
+id="episodio-4---el-poder-de-las-raíces-gruesas-las-paredes-celulares-del-maíz-ayudan-contra-la-sequía"
+class="section level2">
+<h2><strong>Episodio 4 - El Poder de las Raíces Gruesas: las Paredes
+Celulares del Maíz ayudan contra la Sequía</strong></h2>
+<audio controls>
+<source src="Episode4_Espanol.wav" type="audio/wav">
+<p>Your browser does not support the audio element. </audio></p>
+</div>
+<div id="section-14" class="section level2">
+<h2></h2>
+</div>
+<div
+id="episodio-5---volver-al-futuro-simulaciones-del-pasado-para-entender-el-maiz-moderno"
+class="section level2">
+<h2><strong>Episodio 5 - Volver al futuro: simulaciones del pasado para
+entender el maiz moderno</strong></h2>
+<audio controls>
+<source src="Episode5_Espanol.wav" type="audio/wav">
+<p>Your browser does not support the audio element. </audio></p>
+</div>
+<div id="section-15" class="section level2">
+<h2></h2>
+</div>
+<div
+id="episodio-6---el-córtex-radicular-de-poaceae-diverso-dinámico-y-prescindible"
+class="section level2">
+<h2><strong>Episodio 6 - El Córtex Radicular de Poaceae: Diverso,
+Dinámico y Prescindible</strong></h2>
+<audio controls>
+<source src="Episode6_Espanol.wav" type="audio/wav">
+<p>Your browser does not support the audio element. </audio></p>
+</div>
+<div id="section-16" class="section level2">
+<h2></h2>
+</div>
+<div
+id="episodio-7---simulando-el-éxito-subterráneo-diseñando-raíces-de-maíz-para-adaptarse-al-estrés"
+class="section level2">
+<h2><strong>Episodio 7 - Simulando el Éxito Subterráneo: Diseñando
+Raíces de Maíz para Adaptarse al Estrés</strong></h2>
+<audio controls>
+<source src="Episode7_Espanol.wav" type="audio/wav">
+<p>Your browser does not support the audio element. </audio></p>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const audioPlayers = document.querySelectorAll('audio');
+
+  audioPlayers.forEach(player => {
+    // --- Helper para obtener el nombre del archivo de audio ---
+    function getAudioSrc(p) {
+      let src = 'Unknown Audio'; // Valor por defecto
+      const sourceElement = p.querySelector('source');
+      if (sourceElement && sourceElement.src) {
+        const fullPath = sourceElement.src;
+        // Extrae solo el nombre del archivo de la URL
+        src = fullPath.substring(fullPath.lastIndexOf('/') + 1);
+      }
+      return src;
+    }
+
+    // --- Inicializar/resetear las banderas de progreso ---
+    // Esto ayuda a asegurar que los eventos de progreso se envíen solo una vez  por hito por sesión de reproducción.
+    function resetProgressFlags(p) {
+      p._progressReached = { 
+        q1: false, // 25%
+        q2: false, // 50%
+        q3: false, // 75%
+        q4: false  // 100% (completado)
+      };
+    }
+    resetProgressFlags(player); // Inicializa las banderas cuando la página carga
+
+    // --- Evento: Cuando el audio comienza a reproducirse ('play') ---
+    player.addEventListener('play', function() {
+      const audioSrc = getAudioSrc(this);
+      const pageTitle = document.title;
+
+      // Envía el evento inicial de reproducción (como antes)
+      gtag('event', 'audio_play', {
+        'audio_title': audioSrc,
+        'page_title': pageTitle
+      });
+      console.log('GA: audio_play - ' + audioSrc);
+
+      // Si el audio se reproduce desde el principio (o muy cerca),
+      // resetea las banderas de progreso para esta nueva sesión de escucha.
+      if (this.currentTime < 1.5) { // Menos de 1.5 segundos se considera "desde el inicio"
+        resetProgressFlags(this);
+        console.log('Progress flags reset for: ' + audioSrc);
+      }
+    });
+
+    // --- Evento: Mientras el audio se reproduce ('timeupdate') ---
+    // Este evento se dispara repetidamente mientras el tiempo de reproducción cambia.
+    player.addEventListener('timeupdate', function() {
+      // Asegúrate de que la duración del audio esté disponible y sea un número válido
+      if (!this.duration || !isFinite(this.duration)) {
+        return; 
+      }
+
+      const audioSrc = getAudioSrc(this);
+      const percentage = (this.currentTime / this.duration) * 100;
+
+      // Hito del 25%
+      if (percentage >= 25 && !this._progressReached.q1) {
+        gtag('event', 'audio_progress', {
+          'audio_title': audioSrc,
+          'audio_percent_complete': 25
+        });
+        this._progressReached.q1 = true;
+        console.log('GA: audio_progress 25% - ' + audioSrc);
+      }
+      // Hito del 50%
+      if (percentage >= 50 && !this._progressReached.q2) {
+        gtag('event', 'audio_progress', {
+          'audio_title': audioSrc,
+          'audio_percent_complete': 50
+        });
+        this._progressReached.q2 = true;
+        console.log('GA: audio_progress 50% - ' + audioSrc);
+      }
+      // Hito del 75%
+      if (percentage >= 75 && !this._progressReached.q3) {
+        gtag('event', 'audio_progress', {
+          'audio_title': audioSrc,
+          'audio_percent_complete': 75
+        });
+        this._progressReached.q3 = true;
+        console.log('GA: audio_progress 75% - ' + audioSrc);
+      }
+      // (El 100% se maneja con el evento 'ended' para mayor precisión)
+    });
+
+    // --- Evento: Cuando el audio termina de reproducirse ('ended') ---
+    player.addEventListener('ended', function() {
+      const audioSrc = getAudioSrc(this);
+
+      // Hito del 100% (completado)
+      if (!this._progressReached.q4) { // Enviar solo si no se ha enviado antes
+        gtag('event', 'audio_progress', {
+          'audio_title': audioSrc,
+          'audio_percent_complete': 100
+        });
+        this._progressReached.q4 = true;
+        console.log('GA: audio_progress 100% (ended) - ' + audioSrc);
+      }
+      // Resetea las banderas para una posible nueva reproducción del mismo audio
+      resetProgressFlags(this);
+    });
+
+    // --- Opcional: Manejar pausas (para depuración o lógica avanzada) ---
+    // player.addEventListener('pause', function() {
+    //   const audioSrc = getAudioSrc(this);
+    //   console.log('Audio paused: ' + audioSrc + ' at ' + this.currentTime.toFixed(1) + 's');
+    // });
+  });
+});
+</script>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

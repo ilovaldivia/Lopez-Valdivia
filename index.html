@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Ivan Lopez-Valdivia, PhD</title>
+
+<script src="site_libs/header-attrs-2.28/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet" />
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ERV5WXQZ44"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ERV5WXQZ44');
+</script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Ivan Lopez-Valdivia</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="podcast.html">Podcast</a>
+</li>
+<li>
+  <a href="research.html">Research</a>
+</li>
+<li>
+  <a href="publications.html">Publications</a>
+</li>
+<li>
+  <a href="lectures.html">Lectures</a>
+</li>
+<li>
+  <a href="news.html">News</a>
+</li>
+<li>
+  <a href="contact.html">Contact</a>
+</li>
+<li>
+  <a href="CV_ILV.pdf">CV</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="https://www.linkedin.com/in/ivan-lopez-valdivia-575429252/">
+    <span class="fa fa-brands fa-linkedin"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://twitter.com/IlvIvan">
+    <span class="fa fa-brands fa-twitter"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://scholar.google.com/citations?hl=es&amp;user=XMdjIEsAAAAJ&amp;view_op=list_works&amp;gmla=AJsN-F6isZkiyjPpbsJBrlo_uGiqM4QcqputVuSh1_UxWGu-cffGUq_q7upHdrAUoy6T32ajtAO8NPw6FlwkvcrSEKIASgpEhg">
+    <span class="fa fa-brands fa-google"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Ivan Lopez-Valdivia, PhD</h1>
+
+</div>
+
+
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ERV5WXQZ44"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ERV5WXQZ44');
+</script>
+</head>
+<div id="section" class="section level2">
+<h2>_________________________________________________</h2>
+<div id="news" class="section level3">
+<h3><strong>NEWS:</strong></h3>
+<ul>
+<li><h3
+id="july-4-2025---today-dr.-peng-yu-has-written-a-commentary-article-about-our-latest-publication-in-new-phytologist"><strong>July
+4, 2025</strong> - Today Dr. Peng Yu has written a <a
+href="https://nph.onlinelibrary.wiley.com/doi/10.1111/nph.70376?fbclid=IwY2xjawLV31dleHRuA2FlbQIxMQABHgBeAWWfg6-Q3biYNici-GprOGpZKq508LDi4Qf7f5yUGlMeAqwoICf74rr4_aem_LPTcf_v43ujAoU6aiq7tWg"><strong>commentary
+article</strong></a> about our <a
+href="https://nph.onlinelibrary.wiley.com/doi/10.1111/nph.70245"><strong>latest
+publication</strong></a> in New Phytologist</h3></li>
+<li><h3 id="may-30-2025---latest-article-in-new-phytologist"><strong>May
+30, 2025</strong> - Latest article in <a
+href="https://nph.onlinelibrary.wiley.com/doi/10.1111/nph.70245"><strong>New
+Phytologist</strong></a> 🌽🌽🌽</h3></li>
+<li><h3 id="may-17-2025---check-out-my-new-ai-podcast"><strong>May 17,
+2025</strong> - Check out my new <a
+href="https://ilovaldivia.github.io/Lopez-Valdivia/podcast.html"><strong>AI-Podcast!!</strong></a>
+🎙️🌱🌽</h3></li>
+</ul>
+</div>
+</div>
+<div id="section-1" class="section level2">
+<h2>_________________________________________________</h2>
+<div id="hi-there-thank-you-for-visiting-my-website"
+class="section level3">
+<h3>Hi there! Thank you for visiting my website!</h3>
+</div>
+<div
+id="my-name-is-ivan-lopez-valdivia-and-im-a-postdoctoral-researcher-at-the-leibniz-institute-of-plant-genetics-and-crop-plant-research-working-with-prof.-hannah-schneider-in-the-genetics-and-physiology-of-root-development-laboratory."
+class="section level3">
+<h3>My name is Ivan Lopez Valdivia, and I’m a postdoctoral researcher at
+the <a href="https://www.ipk-gatersleben.de/en/">Leibniz Institute of
+Plant Genetics and Crop Plant Research</a>, working with <a
+href="https://scholar.google.de/citations?user=_lMz9nYAAAAJ&amp;hl=en">Prof. Hannah
+Schneider</a> in the <a
+href="https://www.ipk-gatersleben.de/en/research/physiology-and-cell-biology/genetics-and-physiology-of-root-development">Genetics
+and Physiology of Root Development laboratory</a>.</h3>
+</div>
+<div
+id="my-research-focuses-on-understanding-how-root-systems-adapt-to-diverse-soil-conditions-and-how-crop-domestication-has-shaped-these-adaptations.-im-particularly-interested-in"
+class="section level3">
+<h3>My research focuses on understanding how root systems adapt to
+diverse soil conditions and how crop domestication has shaped these
+adaptations. I’m particularly interested in:</h3>
+</div>
+<div id="section-2" class="section level3">
+<h3></h3>
+<ul>
+<li><h3
+id="key-root-traits-for-improved-crop-performance-im-particularly-interested-in-explroring-the-phenotypic-variation-of-maize-landraces-and-understanding-the-roles-of-cortical-cell-size-cortical-cell-file-number-root-cortical-aerenchyma-and-lateral-root-branching-density-in-enhancing-resource-acquisition-especially-under-stress-conditions-like-low-phosphorus-and-low-nitrogen-availability."><strong>Key
+Root Traits for Improved Crop Performance:</strong> I’m particularly
+interested in explroring the phenotypic variation of maize landraces and
+understanding the roles of cortical cell size, cortical cell file
+number, root cortical aerenchyma, and lateral root branching density in
+enhancing resource acquisition, especially under stress conditions like
+low phosphorus and low nitrogen availability.</h3></li>
+</ul>
+<div class="float">
+<img src="Exp3.png"
+alt="Evaluation of 20 genotypes of maize landraces under suboptimal nitrogen and phosphorus conditions. Photo credits: Dr. Dylan Jones" />
+<div class="figcaption">Evaluation of 20 genotypes of maize landraces
+under suboptimal nitrogen and phosphorus conditions. Photo credits:
+Dr. Dylan Jones</div>
+</div>
+</div>
+</div>
+<div id="section-3" class="section level2">
+<h2></h2>
+<ul>
+<li><h3
+id="functional-structural-plant-modeling-i-employ-advanced-modeling-tools-such-as-opensimroot-to-simulate-plant-growth-in-response-to-environmental-factors-such-as-nutrient-availability-and-water-stress.-by-integrating-root-phenotypes-into-these-models-i-can-predict-how-different-root-traits-contribute-to-plant-performance-in-various-environments."><strong>Functional-Structural
+Plant Modeling:</strong> I employ advanced modeling tools such as <a
+href="https://www.fz-juelich.de/en/ibg/ibg-2/expertise/technology-process-development/opensimroot">OpenSimRoot</a>
+to simulate plant growth in response to environmental factors such as
+nutrient availability and water stress. By integrating root phenotypes
+into these models, I can predict how different root traits contribute to
+plant performance in various environments.</h3></li>
+</ul>
+<div class="float">
+<img src="website_animation_pics_v7.gif"
+alt="Simulation of maize root system growing for 40 days using OpenSimRoot. Root color represent different root classes." />
+<div class="figcaption">Simulation of maize root system growing for 40
+days using OpenSimRoot. Root color represent different root
+classes.</div>
+</div>
+<div id="section-4" class="section level3">
+<h3></h3>
+<ul>
+<li><h3
+id="the-role-of-roots-in-crop-domestication-my-work-delves-into-the-evolutionary-history-of-crop-root-systems-with-a-focus-on-maize.-by-combining-ancient-dna-analysis-paleobotanical-data-and-functional-structural-modeling-i-investigate-how-domestication-has-altered-root-traits-and-their-impact-on-crop-adaptation-to-changing-agricultural-practices."><strong>The
+Role of Roots in Crop Domestication:</strong> My work delves into the
+evolutionary history of crop root systems, with a focus on maize. By
+combining ancient DNA analysis, paleobotanical data, and
+functional-structural modeling, I investigate how domestication has
+altered root traits and their impact on crop adaptation to changing
+agricultural practices.</h3>
+<div class="float">
+<img src="Root_evolution.png"
+alt="Simulations of root systems of maize in the last 10,000 years of crop domestication" />
+<div class="figcaption">Simulations of root systems of maize in the last
+10,000 years of crop domestication</div>
+</div></li>
+</ul>
+</div>
+</div>
+<div id="section-5" class="section level2">
+<h2></h2>
+</div>
+<div id="publications---orcidgoogle-scholar" class="section level2">
+<h2>Publications - <a
+href="https://orcid.org/0000-0003-1955-4989">ORCID</a>/<a
+href="https://scholar.google.com/citations?hl=es&amp;user=XMdjIEsAAAAJ&amp;view_op=list_works&amp;gmla=AJsN-F6isZkiyjPpbsJBrlo_uGiqM4QcqputVuSh1_UxWGu-cffGUq_q7upHdrAUoy6T32ajtAO8NPw6FlwkvcrSEKIASgpEhg">Google
+Scholar</a></h2>
+<div id="section-6" class="section level3">
+<h3>2025</h3>
+<ul>
+<li><strong>Ivan Lopez-Valdivia</strong>, Miguel Vallebueno-Estrada,
+Harini Rangarajan, Kelly Swarts, Bruce F. Benz, Michael Blake, <a
+href="https://jagdeepideas.com/">Jagdeep Singh Sidhu</a>, Sergio
+Perez-Limon, Ruairidh J. H. Sawers, Hannah Schneider, Jonathan P. Lynch.
+In silico analysis of the evolution of root phenotypes during maize
+domestication in Neolithic soils of Tehuacán, New Phytologist <a
+href="https://nph.onlinelibrary.wiley.com/doi/10.1111/nph.70245">Full
+Record</a></li>
+</ul>
+<audio controls>
+<source src="Episode5_English.wav" type="audio/wav">
+<p>Your browser does not support the audio element. </audio></p>
+</div>
+</div>
+<div id="section-7" class="section level2">
+<h2></h2>
+<ul>
+<li>Dylan H. Jones, Kaisa Kajala, Dorota Kawa, <strong>Ivan
+Lopez-Valdivia</strong>, Tino Kreszies &amp; Hannah M. Schneider (2025)
+The root cortex of the Poaceae: a diverse, dynamic, and dispensable
+tissue. Plant and Soil. <a
+href="https://link.springer.com/article/10.1007/s11104-025-07498-0">Full
+Record</a></li>
+</ul>
+<audio controls>
+<source src="Episode6_English.wav" type="audio/wav">
+<p>Your browser does not support the audio element. </audio></p>
+</div>
+<div id="section-8" class="section level2">
+<h2></h2>
+<div id="section-9" class="section level3">
+<h3>2024</h3>
+<ul>
+<li><strong>Ivan Lopez-Valdivia</strong>, Harini Rangarajan, Miguel
+Vallebueno-Estrada, Jonathan P. Lynch Exploring yield stability and the
+fitness landscape of maize landrace root phenotypes in silico. biorxiv
+<a
+href="https://www.biorxiv.org/content/10.1101/2024.09.07.609951v1">Full
+Record</a></li>
+</ul>
+<audio controls>
+<source src="Episode7_English.wav" type="audio/wav">
+<p>Your browser does not support the audio element. </audio></p>
+</div>
+</div>
+<div id="section-10" class="section level2">
+<h2></h2>
+<ul>
+<li><a href="https://jagdeepideas.com/">Jagdeep Singh Sidhu</a>,
+<strong>Ivan Lopez-Valdivia</strong>, Christopher F Strock, Hannah M
+Schneider, Jonathan Lynch. 2024. Cortical parenchyma wall width
+regulates root metabolic cost and maize performance under suboptimal
+water availability. Journal of Experimental Botany <a
+href="https://academic.oup.com/jxb/article/75/18/5750/7658190">Full
+Record</a></li>
+</ul>
+<audio controls>
+<source src="Episode4_English.wav" type="audio/wav">
+<p>Your browser does not support the audio element. </audio></p>
+</div>
+<div id="section-11" class="section level2">
+<h2></h2>
+<div id="section-12" class="section level3">
+<h3>2023</h3>
+<ul>
+<li><strong>Ivan Lopez-Valdivia</strong>; Xiyu Yang; Jonathan P. Lynch.
+2023. Large root cortical cells and reduced cortical cell files improve
+growth under suboptimal nitrogen in silico. Plant Physiology, <a
+href="https://academic.oup.com/plphys/advance-article/doi/10.1093/plphys/kiad214/7114972?login=true">Full
+Record</a></li>
+</ul>
+<audio controls>
+<source src="Episode2_English.wav" type="audio/wav">
+<p>Your browser does not support the audio element. </audio></p>
+</div>
+</div>
+<div id="section-13" class="section level2">
+<h2></h2>
+<ul>
+<li>Miguel Vallebueno-Estrada; Guillermo G. Hernández-Robles; Eduardo
+González-Orozco; <strong>Ivan Lopez-Valdivia</strong>; Teresa Rosales
+Tham; Víctor Vásquez Sánchez; Kelly Swarts; Tom D. Dillehay;
+Jean-Philippe Vielle-Calzada; Rafael Montiel. 2023. Domestication and
+lowland adaptation of coastal preceramic maize from Paredones, Peru.
+eLife, <a href="https://elifesciences.org/articles/83149">Full
+Record</a></li>
+</ul>
+<audio controls>
+<source src="Episode3_English.wav" type="audio/wav">
+<p>Your browser does not support the audio element. </audio></p>
+</div>
+<div id="section-14" class="section level2">
+<h2></h2>
+<div id="section-15" class="section level3">
+<h3>2022</h3>
+<ul>
+<li><strong>Lopez-Valdivia Ivan</strong>, Alden Perkins, Hannah
+Schneider, Miguel Vallebueno-Estrada, James Burridge, Eduardo
+González-Orozco, Aurora Montufar, Rafael Montiel, Jonathan Lynch,
+Jean-Philippe Vielle-Calzada. 2022. Gradual domestication of root traits
+in the earliest maize from Tehuacan. PNAS Vol. 119 No. 17 e2110245119 <a
+href="https://www.pnas.org/doi/epdf/10.1073/pnas.2110245119">Full
+Record</a></li>
+</ul>
+<audio controls>
+<source src="Episode1_English.wav" type="audio/wav">
+<p>Your browser does not support the audio element. </audio></p>
+</div>
+</div>
+<div id="section-16" class="section level2">
+<h2></h2>
+<div id="section-17" class="section level3">
+<h3>2019</h3>
+<ul>
+<li><strong>Lopez-Valdivia Ivan</strong> (2019) Caracterización de
+raíces milenarias de maíz provenientes de Tehuacán: comparación con
+poblaciones actuales del género Zea. CINVESTAV. Mexico. Tesis de
+Maestria. <a href="LopezValdivia_master.pdf">Full Record</a></li>
+</ul>
+</div>
+</div>
+<div id="about-me" class="section level2">
+<h2>About me</h2>
+<div class="float">
+<img src="rocksprings2021.png"
+alt="Maize fields at The Russell E. Larson Agricultural Research Center at Rock Springs, Penn State University" />
+<div class="figcaption">Maize fields at The Russell E. Larson
+Agricultural Research Center at Rock Springs, Penn State
+University</div>
+</div>
+<div
+id="im-a-mexican-ph.d.-devoted-to-understanding-the-physiological-and-morphological-root-adaptations-along-the-domestication-and-dispersion-of-maize-and-wheat.-i-use-greenhouse-field-and-modeling-approaches-to-study-the-role-of-root-anatomy-architecture-and-physiology-in-the-adaptation-to-abiotic-stress."
+class="section level3">
+<h3>I’m a Mexican Ph.D. devoted to understanding the physiological and
+morphological root adaptations along the domestication and dispersion of
+maize and wheat. I use greenhouse, field, and modeling approaches to
+study the role of root anatomy, architecture, and physiology in the
+adaptation to abiotic stress.</h3>
+<div class="float">
+<img src="field_CIMMYT.png"
+alt="Sampling Wheat roots at CIMMYT Obregon Station 2023" />
+<div class="figcaption">Sampling Wheat roots at CIMMYT Obregon Station
+2023</div>
+</div>
+</div>
+<div
+id="i-finished-my-phd-in-2024-under-the-mentorship-of-jonathan-lynch-at-pennsylvania-state-university-where-we-implemented-high-throughput-phenotyping-of-root-systems-to-capture-the-variation-of-root-phenotypes-and-their-interactions-and-functions-under-abiotic-stress."
+class="section level3">
+<h3>I finished my PhD in 2024 under the mentorship of <a
+href="https://plantscience.psu.edu/directory/jpl4">Jonathan Lynch</a> at
+Pennsylvania State University where we implemented high-throughput
+phenotyping of root systems to capture the variation of root phenotypes
+and their interactions, and functions under abiotic stress.</h3>
+</div>
+<div
+id="in-2022-i-shared-advances-of-my-project-related-with-the-local-adaptation-of-root-traits-to-arid-and-humid-soils-at-the-asa-cssa-sssa-annual-meeting-in-baltimore."
+class="section level3">
+<h3>In 2022, I shared advances of my project related with the local
+adaptation of root traits to arid and humid soils at the <a
+href="https://www.acsmeetings.org/">ASA, CSSA &amp; SSSA Annual
+Meeting</a> in Baltimore.</h3>
+<div class="float">
+<img src="ASA_meeting.png"
+alt="Poster sesion at ASA, CSSA &amp; SSSA Annual Meeting 2022" />
+<div class="figcaption">Poster sesion at ASA, CSSA &amp; SSSA Annual
+Meeting 2022</div>
+</div>
+</div>
+<div
+id="before-going-to-penn-state-university-i-studied-a-master-degree-in-plant-biotechnology-at-langebio-cinvestav-where-i-characterized-the-root-anatomy-and-architecture-of-5000-year-old-maize-specimens-coming-from-the-san-marcos-cave-at-tehuacan-valley.-i-performed-this-research-at-paleogenomics-lab-and-apomixis-lab-at-langebio-and-in-collaboration-with-the-roots-lab-at-penn-state-university.-we-found-evidences-that-the-root-traits-were-domesticated-gradually-in-maize.-further-information-can-be-found-here.-i-was-so-fortunate-to-share-my-master-thesis-work-at-sexto-congreso-internacional-el-patrimonio-cultural-y-las-nuevas-tecnologias-where-i-talked-in-detail-about-how-root-traits-were-affected-gradually-during-the-domestication-of-maize."
+class="section level3">
+<h3>Before going to Penn State University I studied a master degree in
+Plant Biotechnology at <a href="https://langebio.cinvestav.mx/">LANGEBIO
+Cinvestav</a> where I characterized the root anatomy and architecture of
+5000-year-old maize specimens coming from the San Marcos cave at
+Tehuacan Valley. I performed this research at <a
+href="https://langebio.cinvestav.mx/Dr-Rafael-Montiel">Paleogenomics
+Lab</a> and <a
+href="https://langebio.cinvestav.mx/Dr-Jean-Philippe-Vielle.html">Apomixis
+Lab</a> at LANGEBIO, and in collaboration with the <a
+href="https://plantscience.psu.edu/research/labs/roots">Roots Lab</a> at
+Penn State University. We found <a
+href="https://www.pnas.org/doi/epdf/10.1073/pnas.2110245119">evidences</a>
+that the root traits were domesticated gradually in maize. Further
+information can be found <a
+href="https://www.psu.edu/news/research/story/getting-root-corn-domestication-knowledge-may-help-plant-breeders/">here</a>.
+I was so fortunate to share my master thesis work at <a
+href="https://www.youtube.com/embed/EHGk6d-GebA">“Sexto Congreso
+Internacional El patrimonio Cultural y las nuevas tecnologias”</a> where
+I talked in detail about how root traits were affected gradually during
+the domestication of maize.</h3>
+<div class="float">
+<img src="Inah_cinvestav.png"
+alt="Master thesis defense at CINVESTAV-Langebio auditorium and oral presentation in Sexto Congreso Internacional El Patrimonio Cultural y las nuevas tecnologias. 2019" />
+<div class="figcaption">Master thesis defense at CINVESTAV-Langebio
+auditorium and oral presentation in Sexto Congreso Internacional El
+Patrimonio Cultural y las nuevas tecnologias. 2019</div>
+</div>
+</div>
+</div>
+<div id="section-18" class="section level2">
+<h2></h2>
+</div>
+<div id="section-19" class="section level2">
+<h2></h2>
+</div>
+<div id="contact-me" class="section level2">
+<h2>Contact me</h2>
+<!-- modify this form HTML and place wherever you want your form -->
+<form action="https://formspree.io/f/xzzzdaaz" method="POST">
+<label> Name: <input type="name" name="name"> </label><br><br> <label>
+Email: <input type="email" name="email"> </label><br><br> <label>
+Message:
+<textarea name="message"></textarea>
+</label><br><br> <!-- your other form fields go here -->
+<button type="submit">Send</button>
+</form>
+</div>
+<div id="section-20" class="section level2">
+<h2></h2>
+</div>
+<div id="section-21" class="section level2">
+<h2></h2>
+</div>
+<div id="section-22" class="section level2">
+<h2></h2>
+</div>
+<div id="section-23" class="section level2">
+<h2></h2>
+<div id="la-gente-hecha-de-maíz-hace-el-maíz." class="section level4">
+<h4><em>“La gente, hecha de maíz, hace el maíz.</em></h4>
+</div>
+<div id="la-gente-creada-de-la-carne-y-los-colores-del-maíz"
+class="section level4">
+<h4><em>La gente, creada de la carne y los colores del maíz,</em></h4>
+</div>
+<div id="cava-una-cuna-para-el-maíz-y-lo-cubre-de-buena"
+class="section level4">
+<h4><em>cava una cuna para el maíz, y lo cubre de buena</em></h4>
+</div>
+<div id="tierra-y-lo-limpia-de-malas-hierbas-y-lo-riega-y-le"
+class="section level4">
+<h4><em>tierra y lo limpia de malas hierbas y lo riega y le</em></h4>
+</div>
+<div id="habla-palabras-que-lo-quieren." class="section level4">
+<h4><em>habla palabras que lo quieren.</em></h4>
+</div>
+<div id="y-cuando-el-maíz-esta-crecido-la-gente-de-maíz-lo"
+class="section level4">
+<h4><em>Y cuando el maíz esta crecido, la gente de maíz lo</em></h4>
+</div>
+<div id="muele-sobre-la-piedra-y-lo-alza-y-lo-aplaude-y-lo"
+class="section level4">
+<h4><em>muele sobre la piedra y lo alza y lo aplaude, y lo</em></h4>
+</div>
+<div id="acuesta-al-amor-del-fuego-y-se-le-come-para-que-en"
+class="section level4">
+<h4><em>acuesta al amor del fuego y se le come, para que en</em></h4>
+</div>
+<div id="la-gente-de-maíz-siga-el-maíz-caminando-sin-morir"
+class="section level4">
+<h4><em>la gente de maíz siga el maíz caminando sin morir</em></h4>
+</div>
+<div id="sobre-la-tierra" class="section level4">
+<h4><em>sobre la tierra”</em></h4>
+</div>
+</div>
+<div id="section-24" class="section level1">
+<h1></h1>
+<div id="eduardo-galeano" class="section level4">
+<h4>Eduardo Galeano</h4>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
