@@ -27,6 +27,7 @@ We are exploring how certain anatomical traits reduce root construction and main
 
 Reduced CCFN decreased metabolic cost, improving root growth, allowing the root system to grow deeper and capturing the nitrogen that is leaching. The continuous gradient from red to blue in the simulated soil represents nitrogen depletion by root uptake and leaching. We simulated the root systems with [OpenSimRoot](https://rootmodels.gitlab.io/) (OSR), a structural-functional model that simulates root growth and interaction with soil in three dimensions.
 
+***
 
 # __Domestication of root traits in the earliest maize__
 
@@ -36,6 +37,7 @@ We are also exploring the effect of domestication in root traits. We used laser 
 
 We observed the [presence](https://www.pnas.org/doi/epdf/10.1073/pnas.2110245119) of Multiseriate Cortical Sclerenchyma (MCS), a root anatomical phenotype recently discovered by [Hannah Schneider et al.](https://www.pnas.org/doi/10.1073/pnas.2012087118). MCS increases the tensile strength of the root and was associated with improved penetration of hard soils. This trait is absent in teosintes. The presence of MCS 5000 years ago suggest an early fixation during domestication, however its role during the the establishment of Mesoamerican agriculture is still unknown. We are using simulations to understand the effect of MCS in early stages of agriculture in Mesoamerica. 
 
+***
 
 # __Local adaptation of root traits__
 
@@ -51,6 +53,8 @@ Also, we are investigating the root adaptations of local varieties from humid (E
 ### Reciprocal Transplanting In silico - Envinronment B
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/toQBu0TGq3E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+***
 
 **Keep tuned for our following results!**
 

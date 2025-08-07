@@ -18,7 +18,7 @@ description: "Here you will find all relevant information about Ivan Lopez-Valdi
 
 
 
-## _________________________________________________
+***
 
 ### **NEWS:** 
 
@@ -28,7 +28,7 @@ description: "Here you will find all relevant information about Ivan Lopez-Valdi
 
 * ### **May 17, 2025** - Check out my new [**AI-Podcast!!**](https://ilovaldivia.github.io/Lopez-Valdivia/podcast.html) 🎙️🌱🌽
 
-## _________________________________________________
+***
 
 ### Hi there! Thank you for visiting my website! 
 
@@ -52,6 +52,7 @@ description: "Here you will find all relevant information about Ivan Lopez-Valdi
 ![Simulations of root systems of maize in the last 10,000 years of crop domestication](Root_evolution.png)
 
 
+***
 
 ##
 ## Publications - [ORCID](https://orcid.org/0000-0003-1955-4989)/[Google Scholar](https://scholar.google.com/citations?hl=es&user=XMdjIEsAAAAJ&view_op=list_works&gmla=AJsN-F6isZkiyjPpbsJBrlo_uGiqM4QcqputVuSh1_UxWGu-cffGUq_q7upHdrAUoy6T32ajtAO8NPw6FlwkvcrSEKIASgpEhg)
@@ -131,7 +132,7 @@ description: "Here you will find all relevant information about Ivan Lopez-Valdi
 
 * **Lopez-Valdivia Ivan** (2019) Caracterización de raíces milenarias de maíz provenientes de Tehuacán: comparación con poblaciones actuales del género Zea. CINVESTAV. Mexico. Tesis de Maestria. [Full Record](LopezValdivia_master.pdf)
 
-
+***
 
 ## About me
 
@@ -153,8 +154,8 @@ description: "Here you will find all relevant information about Ivan Lopez-Valdi
 
 ![Master thesis defense at CINVESTAV-Langebio auditorium and oral presentation in Sexto Congreso Internacional El Patrimonio Cultural y las nuevas tecnologias. 2019](Inah_cinvestav.png)
 
-##
-##
+***
+
 ## Contact me 
 <!-- modify this form HTML and place wherever you want your form -->
 <form
@@ -176,11 +177,8 @@ description: "Here you will find all relevant information about Ivan Lopez-Valdi
   <button type="submit">Send</button>
 </form>
 
+***
 
-##
-##
-##
-##
 #### _"La gente, hecha de maíz, hace el maíz._
 #### _La gente, creada de la carne y los colores del maíz,_
 #### _cava una cuna para el maíz, y lo cubre de buena_

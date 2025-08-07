@@ -72,8 +72,8 @@ title: "Podcast"
   Your browser does not support the audio element.
 </audio>
 
-## __________________________________________________________________
-##
+***
+
 # Version en Español
 ##
 # ¡Bienvenidos a **Raiz del Asunto**, el podcast que trae mis últimas investigaciones a tus oídos! ¡Usé Inteligencia Artificial para crear resúmenes de audio concisos de mis artículos más recientes, y con esto mejorar la comunicación de mi investigación!

@@ -49,6 +49,7 @@ output:
 
 ### If you have any trouble downloading the programs or if you are a Mac user, please [send me a message](https://ilovaldivia.github.io/Lopez-Valdivia/contact.html).
 
+***
 
 # __Section 1 - Running a simple simulation in OpenSimRoot__
 
@@ -73,11 +74,19 @@ output:
 ### You can follow this process step-by-step in this [Tutorial 1](https://www.youtube.com/watch?v=oaAmS1WnMO0&t=249s&ab_channel=ivanlopez)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/oaAmS1WnMO0?si=KJ7Iqx0OILp-1eFl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+***
+
 # __Section 2 - Root phenotypes__
+
+***
 
 # __Section 3 - Soil Environment__
 
+***
+
 # __Section 4 - Atmosphere__
+
+***
 
 # __More information__
 * ### [OpenSimRoot wiki](https://gitlab.com/rootmodels/OpenSimRoot/-/wikis/home)
