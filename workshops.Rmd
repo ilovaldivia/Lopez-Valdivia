@@ -54,8 +54,8 @@ output:
 *  ### [InputFiles zip](https://rootmodels.gitlab.io/)  
 *  ### [R and Rsudio (you will need to download both!)](https://posit.co/download/rstudio-desktop/)
 *  ### [Paraview](https://www.paraview.org/)
-*  ### [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/releases)
-*  ### [WSL](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) 
+*  ### [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
+*  ### [WSL](https://learn.microsoft.com/en-us/windows/wsl/install) 
 
 ### If you have any trouble downloading the programs or if you are a Mac user, please [send me a message](https://ilovaldivia.github.io/Lopez-Valdivia/contact.html).
 
