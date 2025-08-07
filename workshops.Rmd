@@ -25,12 +25,66 @@ output:
 
 ### Hi there! Welcome to the OpenSimRoot workshop! 
 
-### Hi Akshay
+### In this workshop, you will learn the basics of the structural-functional model for simulating root growth using OpenSimRoot. This course will be divided into several sections that will guide you from the basics of OpenSimRoot for users to the more complex engine code for developers.
 
-# __Section 1__
+### In __Section 1__, you will learn what programs you need for running a simple simulation, how to extract your data, and how to see the 3D models of your roots.
 
-# __Section 2__
+### In __Section 2__, you will learn about root phenotypes and how to modify parameters such as root number, angle, lateral branching frequency, growth rates, etc.
 
-# __Section 3__
+### In __Section 3__, you will learn about soil parameters, including soil texture and hydraulic parameters, bulk density, and nutrient availability.
 
-# __Section 4__
+### In __Section 4__, you will learn about atmospheric parameters such as temperature, precipitation, wind speed, humidity, etc.
+
+### In __Section 5__, you will have a specific case study of how to implement OpenSimRoot for a real scientific problem.
+
+
+### Before you jump into the sections, please download the following __programs__:
+
+*  ### [OpenSimRoot (download source code)](https://gitlab.com/rootmodels/OpenSimRoot)
+*  ### [InputFiles zip](https://rootmodels.gitlab.io/)  
+*  ### [R and Rsudio (you will need to download both!)](https://posit.co/download/rstudio-desktop/)
+*  ### [Paraview](https://www.paraview.org/)
+*  ### [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/releases/0.83.html/)
+*  ### [WSL](https://learn.microsoft.com/en-us/windows/wsl/install) 
+
+### If you have any trouble downloading the programs or if you are a Mac user, please [send me a message](https://ilovaldivia.github.io/Lopez-Valdivia/contact.html).
+
+
+# __Section 1 - Running a simple simulation in OpenSimRoot__
+
+### Here you will run your first simulation! There are a few steps you need to perform before running the simulation. Once you have downloaded the OpenSimRoot source code and the inputfiles, you need to compile the program OpenSimRoot in your computer. For this, access to your OpenSimRoot source code using WSL into OpenSimRoot-master and run the program build.sh using the command: 
+
+> `bash build.sh`
+
+### If you got an error in the compilation, double check that you have the most recent version of your compilator is loaded. You can run the command: 
+
+> `module load gcc/your_latest_version` 
+
+### If want to know the versions available in your computer, run this command:  
+
+> `module avail`
+
+
+### Once you succesfully compiled you OpenSimRoot you are ready to run the first simulation! For that run the command:
+
+> `./pathToDownload/OpenSimRoot_Linux_x64 -f ./pathToUnzippedArchive/`
+
+
+### You can follow this process step-by-step in this [Tutorial 1](https://www.youtube.com/watch?v=oaAmS1WnMO0&t=249s&ab_channel=ivanlopez)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oaAmS1WnMO0?si=KJ7Iqx0OILp-1eFl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+# __Section 2 - Root phenotypes__
+
+# __Section 3 - Soil Environment__
+
+# __Section 4 - Atmosphere__
+
+# __More information__
+* ### [OpenSimRoot wiki](https://gitlab.com/rootmodels/OpenSimRoot/-/wikis/home)
+ 
+* ### Postma JA, Kuppe C, Owen MR, Mellor N, Griffiths M, Bennett MJ, Lynch JP, Watt M. 2017. [OpenSimRoot: widening the scope and application of root architectural models](https://nph.onlinelibrary.wiley.com/doi/10.1111/nph.14641). New Phytologist 215: 1274–1286.
+
+### This workshop is in continuous development, and more sections will be gradually added.
+
+
+
