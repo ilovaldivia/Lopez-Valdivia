@@ -50,8 +50,7 @@ output:
 
 ### Before you jump into the sections, please download the following __programs__:
 
-*  ### [OpenSimRoot (download source code)](https://gitlab.com/rootmodels/OpenSimRoot)
-*  ### [InputFiles zip](https://rootmodels.gitlab.io/)  
+*  ### [OpenSimRoot and InputFiles](https://drive.google.com/drive/folders/12LtlyuJ_TFM_pVE7Z4nMPTQpxeeCpz0h?usp=sharing)
 *  ### [R and Rsudio (you will need to download both!)](https://posit.co/download/rstudio-desktop/)
 *  ### [Paraview](https://www.paraview.org/)
 *  ### [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
@@ -87,6 +86,51 @@ output:
 ***
 
 # __Section 2 - Root phenotypes__
+
+### To define the root architecture in OpenSimRoot it is necesary to edit the parameters for the root system in the inputfiles. For instance, in the InputFiles we can define the number of nodal roots, angle of emergence of the roots, lateral branching frequency, among others. For this workshop, we will use a script called __"input_production.sh"__ which will simplify this process for you. The "input_production.sh" script will edit and create new inputfiles based on the spreadsheet __"parameters_v1.csv"__, in which you will specify the root phenotypes you want. Think about it as a two step process, in which you first define your parameters in the "parameters_v1.csv", then run the script "inputfile_production.sh" and create the input files. Once you have created the inputfiles you can run the simulations. 
+
+
+### So, let's explore the parameters_v1.csv file. It contains  : 
+
+```{r data-setup, echo = FALSE, warning = FALSE, message = FALSE}
+# This code will RUN, but you will not see this block in the HTML file.
+
+# Load the necessary libraries
+library(DT)
+library(readr) # Use this for .csv files
+
+# Read the spreadsheet from the 'data' folder
+# The path is relative to the root of your project
+spreadsheet_data <- read_csv("parameters_v1.csv")
+
+# Create the interactive datatable
+datatable(
+  spreadsheet_data,
+  caption = "An interactive preview of the parameters spreadsheet.",
+  options = list(
+    scrollX = TRUE,
+    autoWidth = TRUE,
+    columnDefs = list(list(
+      targets = "_all",
+      className = "dt-nowrap"
+    )))
+)
+
+
+
+```
+
+
+### From column 1 to 7 we have the Tags. These are not parameters but simple names that you can edit when designing your simulations. For instance, in column 1 we have ACCESSION, which correspond to a particular phenotype, let's say steep or shallow roots. In the column 2 we have the environment, which we will cover in section 3 and 4. In this case, column 2 is the same for all because we are using the same environment for all the simulations. 
+
+### Starting from column 8 we have the parameters of the simulation. These parameters include parameters for the root morphology, root physiology and environment. In this section we will focus only in the root morphology. In particular we will look at the columns AN_, NRN_, and MIN/MAX_BF, which represents the values for __Angle__, __Number of roots__ and __lateral branching frequency__. You will notice that the column name is accompanied by the acronyms "SEM", "N1", "N2", ... "N7". These acronyms refer to the root type the apply. For instance, AN_N1 correspond to the Angle for nodal root 1, NRN_SEM correspond to the number of "seminal" roots. 
+
+### In the following figure you can the results for each of the ACCESSIONS, corresponding to contrating values for Angle, Number of roots and Branching frequecies. 
+
+###
+
+![Root phenotypes](section2.png)
+
 
 ***
 
