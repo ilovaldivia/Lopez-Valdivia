@@ -121,15 +121,15 @@ datatable(
 ```
 
 
-### From column 1 to 7 we have the Tags. These are not parameters but simple names that you can edit when designing your simulations. For instance, in column 1 we have ACCESSION, which correspond to a particular phenotype, let's say steep or shallow roots. In the column 2 we have the environment, which we will cover in section 3 and 4. In this case, column 2 is the same for all because we are using the same environment for all the simulations. 
+### From column 1 to 7 we have the Tags. These are not parameters but simple names that you can edit when designing your simulations. For instance, in column 1 we have ACCESSION, which correspond to a particular phenotype, let's say steep or shallow roots. In the column 2 we have the environment, which we will cover in section 3 and 4. In this case, column 2 is the same for all because we are using the same environment for all the simulations. The rest of the columns have 0 because we are not using them in this example, but can be easily edited by the user as needed.
 
 ### Starting from column 8 we have the parameters of the simulation. These parameters include parameters for the root morphology, root physiology and environment. In this section we will focus only in the root morphology. In particular we will look at the columns AN_, NRN_, and MIN/MAX_BF, which represents the values for __Angle__, __Number of roots__ and __lateral branching frequency__. You will notice that the column name is accompanied by the acronyms "SEM", "N1", "N2", ... "N7". These acronyms refer to the root type the apply. For instance, AN_N1 correspond to the Angle for nodal root 1, NRN_SEM correspond to the number of "seminal" roots. 
 
-### In the following figure you can the results for each of the ACCESSIONS, corresponding to contrating values for Angle, Number of roots and Branching frequecies. 
+### In the following figure you can see the results for each of the ACCESSIONS, corresponding to contrasting values for Angle, Number of roots and Branching frequecies. 
 
 ###
 
-![Root phenotypes](section2.png)
+![Root phenotypes](Section2_roots_v2.png)
 
 
 ***
