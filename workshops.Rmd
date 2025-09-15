@@ -83,6 +83,65 @@ output:
 ### You can follow this process step-by-step in this [Tutorial 1](https://www.youtube.com/watch?v=oaAmS1WnMO0&t=249s&ab_channel=ivanlopez)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/oaAmS1WnMO0?si=KJ7Iqx0OILp-1eFl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+# Results 
+
+```{r interactive-plot, message=FALSE, warning=FALSE, echo=FALSE}
+# Paso 1: Cargar las librerías necesarias
+library(crosstalk)
+library(plotly)
+library(tidyverse)
+
+
+results <- read.csv("results_section1.csv") 
+
+### CAMBIO 1: Modificación en SharedData para una mejor compatibilidad con filtros múltiples ###
+# Cambiamos "key" por "group" para enlazarlo con el widget de checkboxes.
+shared_results <- SharedData$new(results, group = "selector_group")
+
+### CAMBIO 2: Reemplazar el menú desplegable por casillas de verificación (checkboxes) ###
+# Usamos filter_checkbox para permitir la selección múltiple.
+filter_widget <- filter_checkbox(
+  id = "selector_name",
+  label = "Chose one or more variables:", # Etiqueta actualizada
+  sharedData = shared_results,
+  group = ~name,
+  inline = TRUE # Muestra las casillas en una línea
+)
+
+# Paso 5: Crear la gráfica base con ggplot
+### CAMBIO 3: Actualizar la estética (aes) para usar colores por variable ###
+# Añadimos "color = name" y "group = name". El texto del tooltip también se actualiza.
+p <- ggplot(shared_results, aes(x = time, y = value, color = name, group = name, 
+                                text = paste("Name:", name, "<br>Time:", time, "<br>Value:", round(value, 2)))) +
+  
+  ### CAMBIO 4: Eliminar el color fijo de las geometrías ###
+  # Se quita "color = 'steelblue'" para que ggplot use los colores definidos en aes().
+  geom_point(size = 3, alpha = 0.8) +
+  geom_line(alpha = 0.5) +
+  
+  ### CAMBIO 5: Añadir título a la leyenda de colores ###
+  labs(
+    title = "Data visualization",
+    x = "Time",
+    y = "Value",
+    color = "Variable" # Título para la leyenda de colores
+  ) +
+  theme_minimal()
+
+# Paso 6: Convertir la gráfica de ggplot a una gráfica de plotly
+plotly_plot <- ggplotly(p, tooltip = "text")
+
+# Paso 7: Presentar el filtro y la gráfica juntos
+### CAMBIO 6: Ajustar la disposición para apilar el filtro sobre la gráfica ###
+# Esto suele funcionar mejor visualmente con las casillas de verificación.
+bscols(
+  filter_widget,
+  plotly_plot,
+  widths = 12
+)
+
+```
+
 ***
 
 # __Section 2 - Root phenotypes__
