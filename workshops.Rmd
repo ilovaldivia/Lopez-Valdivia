@@ -62,7 +62,7 @@ output:
 
 # __Section 1 - Running a simple simulation in OpenSimRoot__
 
-### Here you will run your first simulation! There are a few steps you need to perform before running the simulation. Once you have downloaded the OpenSimRoot source code and the inputfiles, you need to compile the program OpenSimRoot in your computer. For this, access to your OpenSimRoot source code using WSL into OpenSimRoot-master and run the program build.sh using the command: 
+### Here you will run your first simulation! There are a few steps you need to perform before running the simulation. Once you have downloaded the OpenSimRoot source code and the inputfiles, you need to compile the program OpenSimRoot in your computer or cluster. For this, access to your OpenSimRoot source code using WSL into OpenSimRoot-master and run the program build.sh using the command: 
 
 > `bash build.sh`
 
@@ -74,16 +74,30 @@ output:
 
 > `module avail`
 
+### Once you succesfully compiled you OpenSimRoot you are ready to run the first simulation! 
 
-### Once you succesfully compiled you OpenSimRoot you are ready to run the first simulation! For that run the command:
+### If you are using WSL in your own computer, run the command:
 
 > `./pathToDownload/OpenSimRoot_Linux_x64 -f ./pathToUnzippedArchive/`
+
+### If you are using a slurm cluster, run the program __"input_production.sh"__:
+
+> `bash input_production.sh`
+
+
+### and then __"run_rep_v4.sh"__:
+
+> `bash run_rep_v4.sh`
 
 
 ### You can follow this process step-by-step in this [Tutorial 1](https://www.youtube.com/watch?v=oaAmS1WnMO0&t=249s&ab_channel=ivanlopez)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/oaAmS1WnMO0?si=KJ7Iqx0OILp-1eFl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-# Results 
+***
+
+## _Results_ 
+
+### OpenSimRoots produces different type of outputs. It produces vtu and vtp files with the 3D representation of the root system and the soil over multiple time steps. It also include a table_output.tab file, which include values of the variables such as shoot dry weight, root dry weight, nitrogen depletion paterns, root distribution and many more. For this example, we show the root distribution in the form of root weight along different soil profiles (0-10 cm, 10-20 cm, and so on).
 
 ```{r interactive-plot, message=FALSE, warning=FALSE, echo=FALSE}
 # Paso 1: Cargar las librerías necesarias
