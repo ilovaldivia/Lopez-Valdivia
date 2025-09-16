@@ -209,6 +209,14 @@ datatable(
 
 # __Section 3 - Soil Environment__
 
+### In this section we will explore the parameters to simulate different soil types. In OpenSimRoot, the soil is represented as a matrix in which different modules simulate: the concentration and movement of nutrients (N, P, K) in different profiles, bulk density, organic matter and soil dimensions. Soil texture is considered by the integration of the van Genuchten parameters for soil hydraulic conductance and water retention. In [SoilGrids](https://soilgrids.org/), you can have access to different soil cores around the world and you can obtain information about the physical and chemical characteristics for a particular soil type. Based on the soil physical properties, you can use the software [Rossetta](https://www.handbook60.org/rosetta/) to obtain the van Genuchten parameters. 
+
+### Once you have obtained all the parameters of your soil you can input them into the models using the "parameters_v1.csv" file that we reviewed before. To change this parameters, refer to the columns: bulk density, Nitrogen (multiplier), Mineralization (multiplier), Organic Matter (multiplier), Residual Water Content, Saturated Water content, Alpha, n, Saturated Conductivity, OM (organic mater), Phoshporus (multiplier). Note that some variables are a "multiplier", which means that the value to set will multiply the actual values of the input file. To see the actual values you can open the runMaize.xml file in the Reference directory. The variables without a "multiplier" label refer to the actual values. 
+
+###  For this example, we obtained the physical and chemical properties from Colorado, USA and Cusco, Peru and simulated a clay and sandy soil, respectively. 
+
+![Soil Types and Nitrogen leaching](Soil_types_Nitrogen.png)
+
 ***
 
 # __Section 4 - Atmosphere__
