@@ -223,6 +223,10 @@ datatable(
 
 ***
 
+### In this section we will manipulate the atmopheric parameters inside the model. To do so, we will use the same scripts we used in the previous sections. In the "parameters.csv" you will find columns corresponding to: Temperature, Precipitation, Relative Humidity, Wind Speed. You will also find Altitude, Latitude, Longitude, day and month, which will be used to calculate the solar radiation.  
+
+### If you want to parameterize a particular place of interest, you can access to the [NASA POWER Data Access Viewer v.2.0.0] (https://power.larc.nasa.gov/data-access-viewer/) and obtain the atmospheric data for any region of the world. 
+
 # __More information__
 * ### [OpenSimRoot wiki](https://gitlab.com/rootmodels/OpenSimRoot/-/wikis/home)
  
