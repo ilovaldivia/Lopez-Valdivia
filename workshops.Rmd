@@ -24,18 +24,6 @@ output:
 ##
 
 ***
-# Register [here](https://bit.ly/TallerRoot2025?r=qr) for Universidad Autonoma de Aguascalientes
-
-![](uaa.jpg)
-
-***
-
-# Register [here](https://49cmcs.com/) for Universidad Autonoma de Chapingo
-
-![](chapingo.jpg)
-
-
-***
 
 ![Maize root growth](website_animation_pics_v4.gif)
 
@@ -245,6 +233,20 @@ datatable(
 * ### Postma JA, Kuppe C, Owen MR, Mellor N, Griffiths M, Bennett MJ, Lynch JP, Watt M. 2017. [OpenSimRoot: widening the scope and application of root architectural models](https://nph.onlinelibrary.wiley.com/doi/10.1111/nph.14641). New Phytologist 215: 1274–1286.
 
 ### This workshop is in continuous development, and more sections will be gradually added.
+
+# Previous events
+
+***
+# Register [here](https://bit.ly/TallerRoot2025?r=qr) for Universidad Autonoma de Aguascalientes
+
+![](uaa.jpg)
+
+***
+
+# Register [here](https://49cmcs.com/) for Universidad Autonoma de Chapingo
+
+![](chapingo.jpg)
+
 
 
 
