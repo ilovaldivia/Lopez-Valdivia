@@ -17,6 +17,11 @@ title: "Publications"
 
 ##
 
+### 2026
+
+* Giuliano, E., [Jagdeep Singh Sidhu](https://jagdeepideas.com/), **Ivan Lopez-Valdivia**, Feola Conz, R., Depew, C., Lynch, J. P., Six, J., Hartmann, M., & Galindo-Castañeda, T. (2026). Shovelomics meets microbiomics: root phenotype-microbiome associations and links with maize yield under nitrogen limitation. Rhizosphere, [Full Record](https://doi.org/10.1016/j.rhisph.2025.101241)
+
+
 ### 2025
 
 * **Ivan Lopez-Valdivia**, Miguel Vallebueno-Estrada, Harini Rangarajan, Kelly Swarts, Bruce F. Benz, Michael Blake, [Jagdeep Singh Sidhu](https://jagdeepideas.com/), Sergio Perez-Limon, Ruairidh J. H. Sawers, Hannah Schneider, Jonathan P. Lynch. In silico analysis of the evolution of root phenotypes during maize domestication in Neolithic soils of Tehuacán, New Phytologist [Full Record](https://nph.onlinelibrary.wiley.com/doi/10.1111/nph.70245)
