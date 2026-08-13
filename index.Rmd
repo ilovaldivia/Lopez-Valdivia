@@ -20,7 +20,7 @@ description: "Here you will find all relevant information about Ivan Lopez-Valdi
 
 ***
 
-![](IPK_drone.jpg)
+![](IPK_drone_v2.jpeg)
 
 
 ***
