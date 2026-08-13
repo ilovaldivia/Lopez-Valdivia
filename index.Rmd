@@ -20,19 +20,18 @@ description: "Here you will find all relevant information about Ivan Lopez-Valdi
 
 ***
 
-![](happy_new_year.jpg)
+![](IPK_drone.jpg)
+
 
 ***
 
 ### **NEWS:** 
 
-* ### **January 1st, 2026** - Don't miss the the [new publication](https://doi.org/10.1016/j.rhisph.2025.101241) in Rhizosphere by Elena Giuliano on Root Microbiomes and Shovelomics!
+* ### **August 10th, 2026** - New concept: the adaptive value of phenotypic plasticity relies on the **trajectory towards an optimum phenotype**. More details in our new [pre-print](https://www.biorxiv.org/content/10.64898/2026.08.10.744026v1).
 
-* ### **October 13, 2025** - Check out the new [workshop](https://ilovaldivia.github.io/Lopez-Valdivia/workshops.html) about OpenSimRoot!
+* ### **July 11th, 2026** - [New paper](https://link.springer.com/article/10.1007/s11104-026-08822-y) on root phenotypes and rhizosphere microbial diversity in maize from [Elena Giuliano](https://scholar.google.com/citations?user=Gtoeh2YAAAAJ&hl=it) published in Plant ans Soil.
 
-* ### **August 21, 2025** - [New publication](https://academic.oup.com/aob/advance-article/doi/10.1093/aob/mcaf179/8233843) in Annals of Botany
-
-* ### **August 18, 2025** - Penn State Press has written a [**news article**](https://www.psu.edu/news/research/story/corn-root-traits-evolved-both-human-driven-natural-environmental-changes) about my PhD work on the evolution of root traits along maize domestication! 
+* ### **April 28th, 2026** - New concept: the **rhizochron**, defined as the thermal time period between the emergence of nodal roots on successive stem nodes, by [Matías Schierenbeck](https://www.linkedin.com/in/mat%C3%ADas-schierenbeck-040a4553/). Check all the details in the following [pre-print](https://www.biorxiv.org/content/10.64898/2026.04.24.720680v1.abstract).
 
 
 ***
@@ -47,7 +46,9 @@ description: "Here you will find all relevant information about Ivan Lopez-Valdi
 *	### **Key Root Traits for Improved Crop Performance:** I'm particularly interested in explroring the phenotypic variation of maize landraces and understanding the roles of cortical cell size, cortical cell file number, root cortical aerenchyma, and lateral root branching density in enhancing resource acquisition, especially under stress conditions like low phosphorus and low nitrogen availability.
 
 
-![Evaluation of 20 genotypes of maize landraces under suboptimal nitrogen and phosphorus conditions. Photo credits: Dr. Dylan Jones](Exp3.png)
+![Field and greenhouse studies](Field_greenhouse_studies.jpg)
+
+Maize pollinations done by [Darshan Damodaran](https://bsky.app/profile/darshandamodaran02.bsky.social)
 
 ## 
 *	### **Functional-Structural Plant Modeling:** I employ advanced modeling tools such as [OpenSimRoot](https://www.fz-juelich.de/en/ibg/ibg-2/expertise/technology-process-development/opensimroot) to simulate plant growth in response to environmental factors such as nutrient availability and water stress. By integrating root phenotypes into these models, I can predict how different root traits contribute to plant performance in various environments.
@@ -66,12 +67,19 @@ description: "Here you will find all relevant information about Ivan Lopez-Valdi
 
 ### 2026
 
-* Giuliano, E., [Jagdeep Singh Sidhu](https://jagdeepideas.com/), **Ivan Lopez-Valdivia**, Feola Conz, R., Depew, C., Lynch, J. P., Six, J., Hartmann, M., & Galindo-Castañeda, T. (2026). Shovelomics meets microbiomics: root phenotype-microbiome associations and links with maize yield under nitrogen limitation. Rhizosphere, [Full Record](https://doi.org/10.1016/j.rhisph.2025.101241)
+* **Ivan Lopez-Valdivia**, [Akshay B. Tawale](https://scholar.google.com/citations?user=BwlzcMoAAAAJ&hl=en), [Matías Schierenbeck](https://www.linkedin.com/in/mat%C3%ADas-schierenbeck-040a4553/), Daniele Sandoni, Dylan Hugo Jones, [Gwendolyn K. Kirschner](https://scholar.google.com/citations?user=1stejVkAAAAJ&hl=en), Hannah M. Schneider (2026) Root phenotypic plasticity improves yield stability when directed toward an adaptive integrated phenotype. bioRxiv [Full Record](https://www.biorxiv.org/content/10.64898/2026.08.10.744026v1) 
+
+* [Matías Schierenbeck](https://www.linkedin.com/in/mat%C3%ADas-schierenbeck-040a4553/), [Akshay B. Tawale](https://scholar.google.com/citations?user=BwlzcMoAAAAJ&hl=en), **Ivan Lopez-Valdivia**, Dylan H. Jones, Annegret Wolf, Petra Linow, Corinna Trautewig, Hannah M. Schneider (2026) A thermal time framework drives coordinated below- and above-ground development in temperate cereal crops. bioRxiv [Full Record](https://www.biorxiv.org/content/10.64898/2026.04.24.720680v1)
+
+* [Giuliano, E.](https://scholar.google.com/citations?user=Gtoeh2YAAAAJ&hl=it), [Jagdeep Singh Sidhu](https://scholar.google.com/citations?user=fJ8j8mYAAAAJ&hl=en), **Ivan Lopez-Valdivia**, Rafaela Feola Conz, Cody L. DePew, Jonathan P. Lynch, Johan Six, Martin Hartmann & Tania Galindo-Castañeda. (2026) Digging for meaningful connections: associations between root phenotypes and rhizosphere microbial diversity in maize. Plant and soil [Full Record](https://link.springer.com/article/10.1007/s11104-026-08822-y)
+
+
+* [Giuliano, E.](https://scholar.google.com/citations?user=Gtoeh2YAAAAJ&hl=it), [Jagdeep Singh Sidhu](https://scholar.google.com/citations?user=fJ8j8mYAAAAJ&hl=en), **Ivan Lopez-Valdivia**, Feola Conz, R., Depew, C., Lynch, J. P., Six, J., Hartmann, M., & Galindo-Castañeda, T. (2026). Shovelomics meets microbiomics: root phenotype-microbiome associations and links with maize yield under nitrogen limitation. Rhizosphere, [Full Record](https://doi.org/10.1016/j.rhisph.2025.101241)
 
 
 ### 2025
 
-* **Ivan Lopez-Valdivia**, Miguel Vallebueno-Estrada, Harini Rangarajan, Kelly Swarts, Bruce F. Benz, Michael Blake, [Jagdeep Singh Sidhu](https://jagdeepideas.com/), Sergio Perez-Limon, Ruairidh J. H. Sawers, Hannah Schneider, Jonathan P. Lynch. In silico analysis of the evolution of root phenotypes during maize domestication in Neolithic soils of Tehuacán, New Phytologist [Full Record](https://nph.onlinelibrary.wiley.com/doi/10.1111/nph.70245)
+* **Ivan Lopez-Valdivia**, Miguel Vallebueno-Estrada, Harini Rangarajan, Kelly Swarts, Bruce F. Benz, Michael Blake, [Jagdeep Singh Sidhu](https://scholar.google.com/citations?user=fJ8j8mYAAAAJ&hl=en), Sergio Perez-Limon, Ruairidh J. H. Sawers, Hannah Schneider, Jonathan P. Lynch. In silico analysis of the evolution of root phenotypes during maize domestication in Neolithic soils of Tehuacán, New Phytologist [Full Record](https://nph.onlinelibrary.wiley.com/doi/10.1111/nph.70245)
 
 <audio controls>
   <source src="Episode5_English.wav" type="audio/wav">

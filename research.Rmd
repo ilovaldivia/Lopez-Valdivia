@@ -19,6 +19,12 @@ output:
 </script>
 </head> 
 
+
+![](Darshan_IPK_field.jpeg)
+
+
+
+
 # __Root cortical anatomy and nitrogen capture__
 
 We are exploring how certain anatomical traits reduce root construction and maintenance cost. This reduction in cost improves root growth and uptake of nitrogen. For instance, in the video, we show the simulated root architecture of two genotypes with contrasting cortical cell file number (CCFN); reduced CCFN (green), and increased CCFN (red) under moderate N stress.

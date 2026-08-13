@@ -19,7 +19,14 @@ title: "Publications"
 
 ### 2026
 
-* Giuliano, E., [Jagdeep Singh Sidhu](https://jagdeepideas.com/), **Ivan Lopez-Valdivia**, Feola Conz, R., Depew, C., Lynch, J. P., Six, J., Hartmann, M., & Galindo-Castañeda, T. (2026). Shovelomics meets microbiomics: root phenotype-microbiome associations and links with maize yield under nitrogen limitation. Rhizosphere, [Full Record](https://doi.org/10.1016/j.rhisph.2025.101241)
+* **Ivan Lopez-Valdivia**, [Akshay B. Tawale](https://scholar.google.com/citations?user=BwlzcMoAAAAJ&hl=en), [Matías Schierenbeck](https://www.linkedin.com/in/mat%C3%ADas-schierenbeck-040a4553/), Daniele Sandoni, Dylan Hugo Jones, [Gwendolyn K. Kirschner](https://scholar.google.com/citations?user=1stejVkAAAAJ&hl=en), Hannah M. Schneider (2026) Root phenotypic plasticity improves yield stability when directed toward an adaptive integrated phenotype. bioRxiv [Full Record](https://www.biorxiv.org/content/10.64898/2026.08.10.744026v1) 
+
+* [Matías Schierenbeck](https://www.linkedin.com/in/mat%C3%ADas-schierenbeck-040a4553/), [Akshay B. Tawale](https://scholar.google.com/citations?user=BwlzcMoAAAAJ&hl=en), **Ivan Lopez-Valdivia**, Dylan H. Jones, Annegret Wolf, Petra Linow, Corinna Trautewig, Hannah M. Schneider (2026) A thermal time framework drives coordinated below- and above-ground development in temperate cereal crops. bioRxiv [Full Record](https://www.biorxiv.org/content/10.64898/2026.04.24.720680v1)
+
+* [Giuliano, E.](https://scholar.google.com/citations?user=Gtoeh2YAAAAJ&hl=it), [Jagdeep Singh Sidhu](https://scholar.google.com/citations?user=fJ8j8mYAAAAJ&hl=en), **Ivan Lopez-Valdivia**, Rafaela Feola Conz, Cody L. DePew, Jonathan P. Lynch, Johan Six, Martin Hartmann & Tania Galindo-Castañeda. (2026) Digging for meaningful connections: associations between root phenotypes and rhizosphere microbial diversity in maize. Plant and soil [Full Record](https://link.springer.com/article/10.1007/s11104-026-08822-y)
+
+
+* [Giuliano, E.](https://scholar.google.com/citations?user=Gtoeh2YAAAAJ&hl=it), [Jagdeep Singh Sidhu](https://scholar.google.com/citations?user=fJ8j8mYAAAAJ&hl=en), **Ivan Lopez-Valdivia**, Feola Conz, R., Depew, C., Lynch, J. P., Six, J., Hartmann, M., & Galindo-Castañeda, T. (2026). Shovelomics meets microbiomics: root phenotype-microbiome associations and links with maize yield under nitrogen limitation. Rhizosphere, [Full Record](https://doi.org/10.1016/j.rhisph.2025.101241)
 
 
 ### 2025
